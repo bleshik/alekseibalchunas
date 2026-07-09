@@ -24,10 +24,26 @@ a:hover{border-bottom-color:var(--cobalt)}
 header{border-bottom:2px solid var(--ink);padding:56px 0 40px;background:var(--card)}
 .kicker{font-family:var(--mono);font-size:12px;letter-spacing:.14em;text-transform:uppercase;color:var(--ink-soft);display:flex;gap:14px;flex-wrap:wrap;margin-bottom:22px}
 .kicker b{color:var(--cobalt);font-weight:600}
-h1{font-family:var(--display);font-weight:900;font-size:clamp(26px,4.6vw,44px);line-height:1.12;letter-spacing:-.01em;max-width:840px}
+h1{font-family:var(--display);font-weight:900;font-size:clamp(22px,4vw,36px);line-height:1.15;letter-spacing:-.01em;max-width:720px}
 h1 .hl{color:var(--cobalt)}
-.lede{margin-top:20px;font-size:18px;max-width:560px;color:var(--ink-soft);line-height:1.5}
-.hero-cta{display:flex;gap:12px;flex-wrap:wrap;margin-top:28px}
+.lede{margin-top:18px;font-size:17px;max-width:620px;color:var(--ink-soft);line-height:1.55}
+.hero-cta{display:flex;gap:12px;flex-wrap:wrap;margin-top:22px}
+
+.magnet-card{background:var(--cobalt-soft);border:1px solid var(--line);border-left:4px solid var(--cobalt);padding:24px 26px;margin-top:28px;max-width:720px}
+.magnet-tag{font-family:var(--mono);font-size:11px;font-weight:600;letter-spacing:.12em;text-transform:uppercase;color:var(--cobalt);margin-bottom:8px}
+.magnet-title{font-family:var(--display);font-weight:700;font-size:clamp(20px,3vw,26px);letter-spacing:-.01em;margin-bottom:12px}
+.magnet-desc{font-size:15px;color:var(--ink-soft);margin-bottom:10px;max-width:none}
+.magnet-disclaimer,.magnet-note{font-family:var(--mono);font-size:11.5px;color:var(--ink-soft);margin-top:12px;margin-bottom:0;max-width:none;line-height:1.5}
+.magnet-note{margin-top:8px}
+
+.subscribe-form{display:flex;gap:10px;flex-wrap:wrap;margin-top:18px;max-width:520px}
+.subscribe-form input[type=email]{flex:1;min-width:200px;font-family:var(--body);font-size:15px;padding:12px 14px;border:1px solid var(--line);background:var(--card);color:var(--ink)}
+.subscribe-form input[type=email]:focus{outline:2px solid var(--cobalt);outline-offset:0;border-color:var(--cobalt)}
+.subscribe-status{font-family:var(--mono);font-size:12.5px;margin-top:10px;margin-bottom:0;max-width:520px}
+.subscribe-status.ok{color:var(--green)}
+.subscribe-status.err{color:var(--amber)}
+.sr-only{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);border:0}
+.footer-guide{font-family:var(--mono);font-size:13px;color:var(--ink-soft);margin-top:28px}
 .assets{display:grid;grid-template-columns:repeat(4,1fr);gap:1px;background:var(--line);border:1px solid var(--line);margin-top:34px}
 .asset{background:var(--card);padding:16px 18px}
 .asset .num{font-family:var(--mono);font-weight:600;font-size:22px;color:var(--ink)}

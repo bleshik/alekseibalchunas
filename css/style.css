@@ -51,6 +51,8 @@ p{margin-bottom:14px;max-width:760px}
 .note{background:var(--cobalt-soft);border-left:4px solid var(--cobalt);padding:18px 22px;margin:24px 0;max-width:760px}
 .note p{margin-bottom:8px;font-size:15.5px}
 .note p:last-child{margin-bottom:0}
+.group-lbl{font-family:var(--mono);font-size:12px;font-weight:600;letter-spacing:.14em;text-transform:uppercase;color:var(--ink-soft);margin:34px 0 14px;border-bottom:1px solid var(--line);padding-bottom:8px}
+.group-lbl:first-of-type{margin-top:0}
 
 .links{display:grid;grid-template-columns:1fr 1fr;gap:14px;margin:22px 0}
 @media(max-width:680px){.links{grid-template-columns:1fr}}

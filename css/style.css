@@ -51,6 +51,7 @@ p{margin-bottom:14px;max-width:760px}
 .note{background:var(--cobalt-soft);border-left:4px solid var(--cobalt);padding:18px 22px;margin:24px 0;max-width:760px}
 .note p{margin-bottom:8px;font-size:15.5px}
 .note p:last-child{margin-bottom:0}
+.note.warn{background:var(--amber-soft);border-left-color:var(--amber)}
 .group-lbl{font-family:var(--mono);font-size:12px;font-weight:600;letter-spacing:.14em;text-transform:uppercase;color:var(--ink-soft);margin:34px 0 14px;border-bottom:1px solid var(--line);padding-bottom:8px}
 .group-lbl:first-of-type{margin-top:0}
 
@@ -73,7 +74,10 @@ p{margin-bottom:14px;max-width:760px}
 .offers{display:grid;grid-template-columns:1fr 1fr;gap:14px;margin:22px 0}
 @media(max-width:680px){.offers{grid-template-columns:1fr}}
 .offer{background:var(--card);border:1px solid var(--line);padding:28px 26px;position:relative}
-.offer .price{position:absolute;top:22px;right:24px;font-family:var(--mono);font-weight:600;font-size:22px;color:var(--cobalt)}
+.offer .price{position:absolute;top:22px;right:24px;text-align:right}
+.offer .price .amt{font-family:var(--mono);font-weight:600;font-size:22px;color:var(--cobalt);display:block}
+.offer .price .next{font-family:var(--mono);font-size:11px;color:var(--ink-soft);margin-top:4px}
+.offer .price .next b{color:var(--amber);font-weight:600}
 .offer .dur{font-family:var(--mono);font-size:11px;font-weight:600;letter-spacing:.12em;text-transform:uppercase;color:var(--ink-soft);margin-bottom:10px}
 .offer h4{font-size:19px;font-weight:700;margin-bottom:10px;padding-right:90px}
 .offer p{font-size:15px;color:var(--ink-soft);margin-bottom:18px;max-width:none}

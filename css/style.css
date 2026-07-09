@@ -26,7 +26,7 @@ header{border-bottom:2px solid var(--ink);padding:56px 0 40px;background:var(--c
 .kicker b{color:var(--cobalt);font-weight:600}
 h1{font-family:var(--display);font-weight:900;font-size:clamp(26px,4.6vw,44px);line-height:1.12;letter-spacing:-.01em;max-width:840px}
 h1 .hl{color:var(--cobalt)}
-.lede{margin-top:20px;font-size:18px;max-width:740px;color:var(--ink-soft)}
+.lede{margin-top:20px;font-size:18px;max-width:560px;color:var(--ink-soft);line-height:1.5}
 .hero-cta{display:flex;gap:12px;flex-wrap:wrap;margin-top:28px}
 .assets{display:grid;grid-template-columns:repeat(4,1fr);gap:1px;background:var(--line);border:1px solid var(--line);margin-top:34px}
 .asset{background:var(--card);padding:16px 18px}

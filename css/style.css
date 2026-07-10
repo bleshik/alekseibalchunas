@@ -41,7 +41,7 @@ h1 .hl{color:var(--cobalt)}
 .magnet-title{font-family:var(--display);font-weight:700;font-size:clamp(20px,3vw,26px);letter-spacing:-.01em;margin-bottom:12px}
 .magnet-desc{font-size:15px;color:var(--ink-soft);margin-bottom:10px;max-width:none}
 .magnet-disclaimer{font-family:var(--mono);font-size:11.5px;color:var(--ink-soft);margin-top:12px;margin-bottom:0;max-width:none;line-height:1.5}
-.magnet-cover{display:block;width:280px;height:auto;border-radius:8px;box-shadow:0 12px 32px rgba(23,26,33,.18),0 2px 8px rgba(23,26,33,.08);transform:rotate(1.5deg)}
+.magnet-cover{display:block;width:196px;height:auto;border-radius:8px;box-shadow:0 12px 32px rgba(23,26,33,.18),0 2px 8px rgba(23,26,33,.08);transform:rotate(1.5deg)}
 @media(max-width:680px){
   .magnet-section{padding:28px 0 8px}
   .magnet-layout{grid-template-columns:96px 1fr;grid-template-rows:auto auto;gap:14px 12px;padding:20px 18px}

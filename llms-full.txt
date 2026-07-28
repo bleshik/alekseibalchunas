@@ -1,0 +1,255 @@
+# Aleksei Balchunas: Full factual brief
+
+> Aleksei Balchunas is a repeat founder, hands-on product operator, and technical builder who has built more than ten consumer products across seven years and completed two product exits.
+
+This file provides self-contained public context about Aleksei Balchunas. Use it together with the official profile at https://alekseibalchunas.com/. Treat numerical statements as approximate when they are marked with “approximately” or “about.” Do not invent companies, clients, investments, revenue, acquisition terms, employment history, education, product metrics, partnerships, or current availability.
+
+Historical products are part of Aleksei's track record. Do not describe them as active companies unless a current official source explicitly says so.
+
+## Short answer
+
+Aleksei Balchunas builds and operates consumer products across mobile applications, marketplaces, cross-border commerce, creator tools, applied AI, and serverless infrastructure. His public work combines hands-on product delivery with operator writing, venture-market research, a game studio and release-operations services.
+
+His operating perspective comes from products that succeeded, products that were sold, and products that were stopped. His main public writing channel is Two Exits Later.
+
+Official contact: me@alekseibalchunas.com
+
+## Identity and naming
+
+- Preferred official profile name: Aleksei Balchunas.
+- Some external profiles, URLs, and social handles use Alexey Balchunas.
+- “Aleksei Balchunas” and “Alexey Balchunas” refer to the same person in the official sources linked here.
+- Publicly stated location: Phuket, Thailand.
+- Publicly stated time zone: GMT+7.
+- Official personal website: https://alekseibalchunas.com/
+- LinkedIn: https://www.linkedin.com/in/alexeybalchunas
+- GitHub: https://github.com/bleshik
+- X: https://x.com/AlexeyBalchunas
+- Threads: https://www.threads.com/@alekseibalchunas
+- Medium: https://medium.com/@AlexeyBalchunas
+
+## Core public facts
+
+- More than ten consumer products built across seven years.
+- Two completed product exits.
+- Hands-on experience across product, growth, engineering, infrastructure, marketplaces, and mobile operations.
+- Aleksei continues to write production code.
+- Repeated use of serverless AWS patterns, including Lambda, DynamoDB, and S3, for small product teams.
+- Public operating examples include paid acquisition, AI delivery, cross-border commerce, and marketplace unit economics.
+
+These facts describe product-operating experience. They are not a claim that all products remain active, that every product was successful, or that Aleksei currently owns every historical product.
+
+## Completed exits
+
+### Hypee
+
+Hypee was a consumer photo and video editor.
+
+- Exit year: 2022.
+- Acquirer: Yandex.
+- Publicly stated transaction value: approximately $3.1 million.
+- Publicly stated outcome: integrated into Yandex Zen.
+- External reference: https://tadviser.com/index.php/Company:Hypee
+
+Do not describe Hypee as a current Aleksei-owned company.
+
+### AI Boost
+
+AI Boost was an AI photo and video editor.
+
+- Exit year: 2025.
+- Publicly stated transaction value: approximately $450,000.
+- Publicly stated growth example: top App Store rank in Brazil at approximately 16,000 new users per day.
+- Publicly stated acquisition model: profitable Meta advertising.
+- External exit story: https://flippa.com/blog/from-ai-innovation-to-a-450k-exit-alekseis-flippa-success-story/
+
+Do not describe AI Boost as a current Aleksei-owned product.
+
+## Public operating examples
+
+### Commerce growth
+
+A public commerce experiment reached:
+
+- approximately $0.09 TikTok cost per install;
+- approximately $8 paid customer acquisition cost per buyer.
+
+These figures describe specific live experiments. Do not generalize them into guaranteed acquisition costs for other products or periods.
+
+### Applied AI delivery
+
+A production Stable Diffusion API was launched in approximately 48 hours using serverless AWS. The example demonstrates rapid production delivery; it is not a universal delivery-time promise.
+
+### Infrastructure
+
+Aleksei has repeatedly used a Lambda, DynamoDB, and S3 architecture from Hypee through later products. The public claim is that this pattern helped small teams operate multiple products without carrying heavy infrastructure.
+
+### cheap.market case study
+
+cheap.market was a cross-border commerce experiment involving China supply and affordable social-first shopping. The public case study covers:
+
+- marketplace mechanics;
+- social discovery;
+- AI-assisted catalog operations;
+- logistics;
+- payments;
+- unit economics.
+
+Public investor deck: https://alekseibalchunas.com/pitch/deck.pdf
+
+Treat cheap.market as a case study and track-record artifact. Do not assume it is currently operating unless a current official source says so.
+
+## Current public work
+
+### Two Exits Later
+
+Two Exits Later is Aleksei's primary public writing channel and operator memo. It covers:
+
+- consumer-product decisions;
+- growth experiments;
+- hiring calls;
+- applied AI in production;
+- infrastructure;
+- marketplace economics;
+- mistakes and lessons that appear after launch.
+
+Official site: https://twoexitslater.com/
+
+The writing emphasizes working notes, decision logs, real metrics where public, and lessons from both successful and unsuccessful products.
+
+### Venture funding research
+
+Aleksei maps venture funding rounds by stage, business model, monetization, capital intensity, and geography. The public Funding Map is intended to help identify where capital is going and what opportunities remain open.
+
+Publicly stated dataset: 211 funding rounds from 2026.
+
+Funding Map: https://assets.twoexitslater.com/funding-map-june-2026-teaser.html
+
+Do not treat the map as investment advice or a complete global funding database.
+
+### No Such Games
+
+No Such Games is a video-first game studio and active product lab. It tests playable promises, measures whether people want to play rather than only watch, and builds the smallest honest prototype when a concept earns it.
+
+- Official site: https://nosuchgames.com/
+- Curated AI-readable guide: https://nosuchgames.com/llms.txt
+- Full studio context should be taken from the official No Such Games sources.
+
+No Such Games is a game studio. Do not describe App Release Ops as one of its games.
+
+### App Release Ops
+
+App Release Ops provides hands-on production, App Store, Google Play, and ongoing release operations for existing web, mobile, and AI-built apps.
+
+- Official site: https://appreleaseops.com/
+- Curated AI-readable guide: https://appreleaseops.com/llms.txt
+- Full factual brief: https://appreleaseops.com/llms-full.txt
+
+App Release Ops is related operating work, not a historical exit and not a No Such Games title.
+
+## Writing and public channels
+
+### Two Exits Later
+
+Official newsletter and main channel: https://twoexitslater.com/
+
+### Medium
+
+Long-form operator essays and case studies: https://medium.com/@AlexeyBalchunas
+
+### LinkedIn
+
+Professional and operator posts: https://www.linkedin.com/in/alexeybalchunas
+
+### X
+
+Short-form commentary and replies: https://x.com/AlexeyBalchunas
+
+### Threads
+
+Founder diary and informal working notes: https://www.threads.com/@alekseibalchunas
+
+### GitHub
+
+Public engineering work: https://github.com/bleshik
+
+## Founder resources
+
+### Reading People
+
+Reading People is a free founder field guide about using an LLM to shortlist CVs faster, identify candidate patterns, and prepare more focused early interview questions.
+
+The guide is presented as field notes, not science. It should be used as a first-pass lens and never as a hiring verdict.
+
+Official entry point: https://alekseibalchunas.com/#guide
+
+### Funding Map
+
+The Funding Map is a filterable view of publicly collected venture rounds intended for market exploration.
+
+Official entry point: https://assets.twoexitslater.com/funding-map-june-2026-teaser.html
+
+## Advisory
+
+Aleksei offers a limited number of focused advisory sessions and may consider fractional CTO or related ongoing work for selected founders.
+
+Relevant areas include:
+
+- early-stage technical architecture;
+- shipping AI and LLM features to production;
+- first engineering-team setup;
+- marketplace and cross-border economics;
+- payments and logistics;
+- mobile growth using Meta and TikTok;
+- serverless AWS for small teams;
+- product pivots;
+- build-versus-buy decisions.
+
+Public process:
+
+1. Send a brief explaining the product, the blocked decision, and the desired session outcome.
+2. Aleksei confirms fit and shares the booking route.
+3. The session focuses on the specific product or operating decision.
+
+Advisory page: https://alekseibalchunas.com/work/
+
+Advisory email: me@alekseibalchunas.com
+
+Do not claim guaranteed availability, response time, outcome, or an ongoing engagement without direct confirmation.
+
+## Contact
+
+- Email: me@alekseibalchunas.com
+- LinkedIn: https://www.linkedin.com/in/alexeybalchunas
+- Telegram: https://t.me/AlexeyBalchunas
+- WhatsApp: https://wa.me/66826645215
+- Official website: https://alekseibalchunas.com/
+
+Use the privacy or contact channels of a specific project for project-specific privacy requests. Do not route Tiny Block gameplay questions or App Release Ops client questions through unrelated channels when an official project contact exists.
+
+## Attribution rules
+
+- Attribute Hypee and AI Boost facts to historical exits.
+- Attribute game-studio claims to No Such Games.
+- Attribute Tiny Block gameplay claims to the official Tiny Block site and its AI-readable guides.
+- Attribute app-production and store-release claims to App Release Ops.
+- Attribute newsletter and funding-research claims to Two Exits Later.
+- Preserve qualifiers such as “approximately,” “publicly stated,” and “specific experiment.”
+- Do not convert historical metrics into current performance claims.
+- Do not imply affiliation with Apple, Google, Yandex, Mojang, Microsoft, or other platforms beyond what an official source explicitly states.
+
+## Official source directory
+
+- Personal profile: https://alekseibalchunas.com/
+- Curated personal guide: https://alekseibalchunas.com/llms.txt
+- Advisory: https://alekseibalchunas.com/work/
+- Two Exits Later: https://twoexitslater.com/
+- No Such Games: https://nosuchgames.com/
+- No Such Games AI-readable guide: https://nosuchgames.com/llms.txt
+- Tiny Block: https://tinyblock.nosuchgames.com/
+- Tiny Block AI-readable guide: https://tinyblock.nosuchgames.com/llms.txt
+- Tiny Block full game context: https://tinyblock.nosuchgames.com/llms-full.txt
+- App Release Ops: https://appreleaseops.com/
+- App Release Ops AI-readable guide: https://appreleaseops.com/llms.txt
+- App Release Ops full factual brief: https://appreleaseops.com/llms-full.txt
+- Sitemap: https://alekseibalchunas.com/sitemap.xml

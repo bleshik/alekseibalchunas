@@ -121,7 +121,7 @@ The writing emphasizes working notes, decision logs, real metrics where public, 
 
 Aleksei maps venture funding rounds by stage, business model, monetization, capital intensity, and geography. The public Funding Map is intended to help identify where capital is going and what opportunities remain open.
 
-Publicly stated dataset: 211 funding rounds from 2026.
+Publicly stated dataset: 283 companies funded in 2026.
 
 Funding Map: https://assets.twoexitslater.com/funding-map.html
 

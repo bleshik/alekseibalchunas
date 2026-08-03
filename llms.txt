@@ -70,7 +70,7 @@ App Release Ops provides hands-on production, App Store, Google Play, and ongoin
 ## Founder resources
 
 - [Reading People](https://alekseibalchunas.com/#guide): Free founder field guide about AI-assisted CV screening and more focused early interviews
-- [Funding Map](https://assets.twoexitslater.com/funding-map-june-2026-teaser.html): Filterable map of 211 funding rounds from 2026
+- [Funding Map](https://assets.twoexitslater.com/funding-map.html): Filterable map of 283 companies funded in 2026
 
 ## Advisory
 

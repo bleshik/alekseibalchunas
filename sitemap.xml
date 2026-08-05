@@ -1,15 +1,616 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://alekseibalchunas.com/</loc>
     <lastmod>2026-08-05</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://alekseibalchunas.com/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://alekseibalchunas.com/ru/" />
+    <xhtml:link rel="alternate" hreflang="es-ES" href="https://alekseibalchunas.com/es/" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://alekseibalchunas.com/pt-br/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://alekseibalchunas.com/de/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://alekseibalchunas.com/fr/" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://alekseibalchunas.com/it/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://alekseibalchunas.com/ja/" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://alekseibalchunas.com/ko/" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://alekseibalchunas.com/zh-hans/" />
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://alekseibalchunas.com/zh-hant/" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://alekseibalchunas.com/ar/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://alekseibalchunas.com/" />
+  </url>
+  <url>
+    <loc>https://alekseibalchunas.com/ru/</loc>
+    <lastmod>2026-08-05</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://alekseibalchunas.com/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://alekseibalchunas.com/ru/" />
+    <xhtml:link rel="alternate" hreflang="es-ES" href="https://alekseibalchunas.com/es/" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://alekseibalchunas.com/pt-br/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://alekseibalchunas.com/de/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://alekseibalchunas.com/fr/" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://alekseibalchunas.com/it/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://alekseibalchunas.com/ja/" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://alekseibalchunas.com/ko/" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://alekseibalchunas.com/zh-hans/" />
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://alekseibalchunas.com/zh-hant/" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://alekseibalchunas.com/ar/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://alekseibalchunas.com/" />
+  </url>
+  <url>
+    <loc>https://alekseibalchunas.com/es/</loc>
+    <lastmod>2026-08-05</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://alekseibalchunas.com/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://alekseibalchunas.com/ru/" />
+    <xhtml:link rel="alternate" hreflang="es-ES" href="https://alekseibalchunas.com/es/" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://alekseibalchunas.com/pt-br/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://alekseibalchunas.com/de/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://alekseibalchunas.com/fr/" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://alekseibalchunas.com/it/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://alekseibalchunas.com/ja/" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://alekseibalchunas.com/ko/" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://alekseibalchunas.com/zh-hans/" />
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://alekseibalchunas.com/zh-hant/" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://alekseibalchunas.com/ar/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://alekseibalchunas.com/" />
+  </url>
+  <url>
+    <loc>https://alekseibalchunas.com/pt-br/</loc>
+    <lastmod>2026-08-05</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://alekseibalchunas.com/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://alekseibalchunas.com/ru/" />
+    <xhtml:link rel="alternate" hreflang="es-ES" href="https://alekseibalchunas.com/es/" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://alekseibalchunas.com/pt-br/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://alekseibalchunas.com/de/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://alekseibalchunas.com/fr/" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://alekseibalchunas.com/it/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://alekseibalchunas.com/ja/" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://alekseibalchunas.com/ko/" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://alekseibalchunas.com/zh-hans/" />
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://alekseibalchunas.com/zh-hant/" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://alekseibalchunas.com/ar/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://alekseibalchunas.com/" />
+  </url>
+  <url>
+    <loc>https://alekseibalchunas.com/de/</loc>
+    <lastmod>2026-08-05</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://alekseibalchunas.com/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://alekseibalchunas.com/ru/" />
+    <xhtml:link rel="alternate" hreflang="es-ES" href="https://alekseibalchunas.com/es/" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://alekseibalchunas.com/pt-br/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://alekseibalchunas.com/de/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://alekseibalchunas.com/fr/" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://alekseibalchunas.com/it/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://alekseibalchunas.com/ja/" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://alekseibalchunas.com/ko/" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://alekseibalchunas.com/zh-hans/" />
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://alekseibalchunas.com/zh-hant/" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://alekseibalchunas.com/ar/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://alekseibalchunas.com/" />
+  </url>
+  <url>
+    <loc>https://alekseibalchunas.com/fr/</loc>
+    <lastmod>2026-08-05</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://alekseibalchunas.com/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://alekseibalchunas.com/ru/" />
+    <xhtml:link rel="alternate" hreflang="es-ES" href="https://alekseibalchunas.com/es/" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://alekseibalchunas.com/pt-br/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://alekseibalchunas.com/de/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://alekseibalchunas.com/fr/" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://alekseibalchunas.com/it/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://alekseibalchunas.com/ja/" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://alekseibalchunas.com/ko/" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://alekseibalchunas.com/zh-hans/" />
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://alekseibalchunas.com/zh-hant/" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://alekseibalchunas.com/ar/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://alekseibalchunas.com/" />
+  </url>
+  <url>
+    <loc>https://alekseibalchunas.com/it/</loc>
+    <lastmod>2026-08-05</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://alekseibalchunas.com/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://alekseibalchunas.com/ru/" />
+    <xhtml:link rel="alternate" hreflang="es-ES" href="https://alekseibalchunas.com/es/" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://alekseibalchunas.com/pt-br/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://alekseibalchunas.com/de/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://alekseibalchunas.com/fr/" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://alekseibalchunas.com/it/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://alekseibalchunas.com/ja/" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://alekseibalchunas.com/ko/" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://alekseibalchunas.com/zh-hans/" />
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://alekseibalchunas.com/zh-hant/" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://alekseibalchunas.com/ar/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://alekseibalchunas.com/" />
+  </url>
+  <url>
+    <loc>https://alekseibalchunas.com/ja/</loc>
+    <lastmod>2026-08-05</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://alekseibalchunas.com/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://alekseibalchunas.com/ru/" />
+    <xhtml:link rel="alternate" hreflang="es-ES" href="https://alekseibalchunas.com/es/" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://alekseibalchunas.com/pt-br/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://alekseibalchunas.com/de/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://alekseibalchunas.com/fr/" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://alekseibalchunas.com/it/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://alekseibalchunas.com/ja/" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://alekseibalchunas.com/ko/" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://alekseibalchunas.com/zh-hans/" />
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://alekseibalchunas.com/zh-hant/" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://alekseibalchunas.com/ar/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://alekseibalchunas.com/" />
+  </url>
+  <url>
+    <loc>https://alekseibalchunas.com/ko/</loc>
+    <lastmod>2026-08-05</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://alekseibalchunas.com/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://alekseibalchunas.com/ru/" />
+    <xhtml:link rel="alternate" hreflang="es-ES" href="https://alekseibalchunas.com/es/" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://alekseibalchunas.com/pt-br/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://alekseibalchunas.com/de/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://alekseibalchunas.com/fr/" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://alekseibalchunas.com/it/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://alekseibalchunas.com/ja/" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://alekseibalchunas.com/ko/" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://alekseibalchunas.com/zh-hans/" />
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://alekseibalchunas.com/zh-hant/" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://alekseibalchunas.com/ar/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://alekseibalchunas.com/" />
+  </url>
+  <url>
+    <loc>https://alekseibalchunas.com/zh-hans/</loc>
+    <lastmod>2026-08-05</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://alekseibalchunas.com/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://alekseibalchunas.com/ru/" />
+    <xhtml:link rel="alternate" hreflang="es-ES" href="https://alekseibalchunas.com/es/" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://alekseibalchunas.com/pt-br/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://alekseibalchunas.com/de/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://alekseibalchunas.com/fr/" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://alekseibalchunas.com/it/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://alekseibalchunas.com/ja/" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://alekseibalchunas.com/ko/" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://alekseibalchunas.com/zh-hans/" />
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://alekseibalchunas.com/zh-hant/" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://alekseibalchunas.com/ar/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://alekseibalchunas.com/" />
+  </url>
+  <url>
+    <loc>https://alekseibalchunas.com/zh-hant/</loc>
+    <lastmod>2026-08-05</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://alekseibalchunas.com/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://alekseibalchunas.com/ru/" />
+    <xhtml:link rel="alternate" hreflang="es-ES" href="https://alekseibalchunas.com/es/" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://alekseibalchunas.com/pt-br/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://alekseibalchunas.com/de/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://alekseibalchunas.com/fr/" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://alekseibalchunas.com/it/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://alekseibalchunas.com/ja/" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://alekseibalchunas.com/ko/" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://alekseibalchunas.com/zh-hans/" />
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://alekseibalchunas.com/zh-hant/" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://alekseibalchunas.com/ar/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://alekseibalchunas.com/" />
+  </url>
+  <url>
+    <loc>https://alekseibalchunas.com/ar/</loc>
+    <lastmod>2026-08-05</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://alekseibalchunas.com/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://alekseibalchunas.com/ru/" />
+    <xhtml:link rel="alternate" hreflang="es-ES" href="https://alekseibalchunas.com/es/" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://alekseibalchunas.com/pt-br/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://alekseibalchunas.com/de/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://alekseibalchunas.com/fr/" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://alekseibalchunas.com/it/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://alekseibalchunas.com/ja/" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://alekseibalchunas.com/ko/" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://alekseibalchunas.com/zh-hans/" />
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://alekseibalchunas.com/zh-hant/" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://alekseibalchunas.com/ar/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://alekseibalchunas.com/" />
   </url>
   <url>
     <loc>https://alekseibalchunas.com/work/</loc>
     <lastmod>2026-08-05</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://alekseibalchunas.com/work/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://alekseibalchunas.com/ru/work/" />
+    <xhtml:link rel="alternate" hreflang="es-ES" href="https://alekseibalchunas.com/es/work/" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://alekseibalchunas.com/pt-br/work/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://alekseibalchunas.com/de/work/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://alekseibalchunas.com/fr/work/" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://alekseibalchunas.com/it/work/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://alekseibalchunas.com/ja/work/" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://alekseibalchunas.com/ko/work/" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://alekseibalchunas.com/zh-hans/work/" />
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://alekseibalchunas.com/zh-hant/work/" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://alekseibalchunas.com/ar/work/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://alekseibalchunas.com/work/" />
+  </url>
+  <url>
+    <loc>https://alekseibalchunas.com/ru/work/</loc>
+    <lastmod>2026-08-05</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://alekseibalchunas.com/work/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://alekseibalchunas.com/ru/work/" />
+    <xhtml:link rel="alternate" hreflang="es-ES" href="https://alekseibalchunas.com/es/work/" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://alekseibalchunas.com/pt-br/work/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://alekseibalchunas.com/de/work/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://alekseibalchunas.com/fr/work/" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://alekseibalchunas.com/it/work/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://alekseibalchunas.com/ja/work/" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://alekseibalchunas.com/ko/work/" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://alekseibalchunas.com/zh-hans/work/" />
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://alekseibalchunas.com/zh-hant/work/" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://alekseibalchunas.com/ar/work/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://alekseibalchunas.com/work/" />
+  </url>
+  <url>
+    <loc>https://alekseibalchunas.com/es/work/</loc>
+    <lastmod>2026-08-05</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://alekseibalchunas.com/work/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://alekseibalchunas.com/ru/work/" />
+    <xhtml:link rel="alternate" hreflang="es-ES" href="https://alekseibalchunas.com/es/work/" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://alekseibalchunas.com/pt-br/work/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://alekseibalchunas.com/de/work/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://alekseibalchunas.com/fr/work/" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://alekseibalchunas.com/it/work/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://alekseibalchunas.com/ja/work/" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://alekseibalchunas.com/ko/work/" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://alekseibalchunas.com/zh-hans/work/" />
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://alekseibalchunas.com/zh-hant/work/" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://alekseibalchunas.com/ar/work/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://alekseibalchunas.com/work/" />
+  </url>
+  <url>
+    <loc>https://alekseibalchunas.com/pt-br/work/</loc>
+    <lastmod>2026-08-05</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://alekseibalchunas.com/work/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://alekseibalchunas.com/ru/work/" />
+    <xhtml:link rel="alternate" hreflang="es-ES" href="https://alekseibalchunas.com/es/work/" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://alekseibalchunas.com/pt-br/work/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://alekseibalchunas.com/de/work/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://alekseibalchunas.com/fr/work/" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://alekseibalchunas.com/it/work/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://alekseibalchunas.com/ja/work/" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://alekseibalchunas.com/ko/work/" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://alekseibalchunas.com/zh-hans/work/" />
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://alekseibalchunas.com/zh-hant/work/" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://alekseibalchunas.com/ar/work/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://alekseibalchunas.com/work/" />
+  </url>
+  <url>
+    <loc>https://alekseibalchunas.com/de/work/</loc>
+    <lastmod>2026-08-05</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://alekseibalchunas.com/work/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://alekseibalchunas.com/ru/work/" />
+    <xhtml:link rel="alternate" hreflang="es-ES" href="https://alekseibalchunas.com/es/work/" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://alekseibalchunas.com/pt-br/work/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://alekseibalchunas.com/de/work/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://alekseibalchunas.com/fr/work/" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://alekseibalchunas.com/it/work/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://alekseibalchunas.com/ja/work/" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://alekseibalchunas.com/ko/work/" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://alekseibalchunas.com/zh-hans/work/" />
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://alekseibalchunas.com/zh-hant/work/" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://alekseibalchunas.com/ar/work/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://alekseibalchunas.com/work/" />
+  </url>
+  <url>
+    <loc>https://alekseibalchunas.com/fr/work/</loc>
+    <lastmod>2026-08-05</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://alekseibalchunas.com/work/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://alekseibalchunas.com/ru/work/" />
+    <xhtml:link rel="alternate" hreflang="es-ES" href="https://alekseibalchunas.com/es/work/" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://alekseibalchunas.com/pt-br/work/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://alekseibalchunas.com/de/work/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://alekseibalchunas.com/fr/work/" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://alekseibalchunas.com/it/work/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://alekseibalchunas.com/ja/work/" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://alekseibalchunas.com/ko/work/" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://alekseibalchunas.com/zh-hans/work/" />
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://alekseibalchunas.com/zh-hant/work/" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://alekseibalchunas.com/ar/work/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://alekseibalchunas.com/work/" />
+  </url>
+  <url>
+    <loc>https://alekseibalchunas.com/it/work/</loc>
+    <lastmod>2026-08-05</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://alekseibalchunas.com/work/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://alekseibalchunas.com/ru/work/" />
+    <xhtml:link rel="alternate" hreflang="es-ES" href="https://alekseibalchunas.com/es/work/" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://alekseibalchunas.com/pt-br/work/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://alekseibalchunas.com/de/work/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://alekseibalchunas.com/fr/work/" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://alekseibalchunas.com/it/work/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://alekseibalchunas.com/ja/work/" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://alekseibalchunas.com/ko/work/" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://alekseibalchunas.com/zh-hans/work/" />
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://alekseibalchunas.com/zh-hant/work/" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://alekseibalchunas.com/ar/work/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://alekseibalchunas.com/work/" />
+  </url>
+  <url>
+    <loc>https://alekseibalchunas.com/ja/work/</loc>
+    <lastmod>2026-08-05</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://alekseibalchunas.com/work/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://alekseibalchunas.com/ru/work/" />
+    <xhtml:link rel="alternate" hreflang="es-ES" href="https://alekseibalchunas.com/es/work/" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://alekseibalchunas.com/pt-br/work/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://alekseibalchunas.com/de/work/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://alekseibalchunas.com/fr/work/" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://alekseibalchunas.com/it/work/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://alekseibalchunas.com/ja/work/" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://alekseibalchunas.com/ko/work/" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://alekseibalchunas.com/zh-hans/work/" />
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://alekseibalchunas.com/zh-hant/work/" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://alekseibalchunas.com/ar/work/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://alekseibalchunas.com/work/" />
+  </url>
+  <url>
+    <loc>https://alekseibalchunas.com/ko/work/</loc>
+    <lastmod>2026-08-05</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://alekseibalchunas.com/work/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://alekseibalchunas.com/ru/work/" />
+    <xhtml:link rel="alternate" hreflang="es-ES" href="https://alekseibalchunas.com/es/work/" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://alekseibalchunas.com/pt-br/work/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://alekseibalchunas.com/de/work/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://alekseibalchunas.com/fr/work/" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://alekseibalchunas.com/it/work/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://alekseibalchunas.com/ja/work/" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://alekseibalchunas.com/ko/work/" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://alekseibalchunas.com/zh-hans/work/" />
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://alekseibalchunas.com/zh-hant/work/" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://alekseibalchunas.com/ar/work/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://alekseibalchunas.com/work/" />
+  </url>
+  <url>
+    <loc>https://alekseibalchunas.com/zh-hans/work/</loc>
+    <lastmod>2026-08-05</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://alekseibalchunas.com/work/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://alekseibalchunas.com/ru/work/" />
+    <xhtml:link rel="alternate" hreflang="es-ES" href="https://alekseibalchunas.com/es/work/" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://alekseibalchunas.com/pt-br/work/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://alekseibalchunas.com/de/work/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://alekseibalchunas.com/fr/work/" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://alekseibalchunas.com/it/work/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://alekseibalchunas.com/ja/work/" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://alekseibalchunas.com/ko/work/" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://alekseibalchunas.com/zh-hans/work/" />
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://alekseibalchunas.com/zh-hant/work/" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://alekseibalchunas.com/ar/work/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://alekseibalchunas.com/work/" />
+  </url>
+  <url>
+    <loc>https://alekseibalchunas.com/zh-hant/work/</loc>
+    <lastmod>2026-08-05</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://alekseibalchunas.com/work/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://alekseibalchunas.com/ru/work/" />
+    <xhtml:link rel="alternate" hreflang="es-ES" href="https://alekseibalchunas.com/es/work/" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://alekseibalchunas.com/pt-br/work/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://alekseibalchunas.com/de/work/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://alekseibalchunas.com/fr/work/" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://alekseibalchunas.com/it/work/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://alekseibalchunas.com/ja/work/" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://alekseibalchunas.com/ko/work/" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://alekseibalchunas.com/zh-hans/work/" />
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://alekseibalchunas.com/zh-hant/work/" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://alekseibalchunas.com/ar/work/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://alekseibalchunas.com/work/" />
+  </url>
+  <url>
+    <loc>https://alekseibalchunas.com/ar/work/</loc>
+    <lastmod>2026-08-05</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://alekseibalchunas.com/work/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://alekseibalchunas.com/ru/work/" />
+    <xhtml:link rel="alternate" hreflang="es-ES" href="https://alekseibalchunas.com/es/work/" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://alekseibalchunas.com/pt-br/work/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://alekseibalchunas.com/de/work/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://alekseibalchunas.com/fr/work/" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://alekseibalchunas.com/it/work/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://alekseibalchunas.com/ja/work/" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://alekseibalchunas.com/ko/work/" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://alekseibalchunas.com/zh-hans/work/" />
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://alekseibalchunas.com/zh-hant/work/" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://alekseibalchunas.com/ar/work/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://alekseibalchunas.com/work/" />
   </url>
   <url>
     <loc>https://alekseibalchunas.com/work/ai-systems/</loc>
     <lastmod>2026-08-05</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://alekseibalchunas.com/work/ai-systems/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://alekseibalchunas.com/ru/work/ai-systems/" />
+    <xhtml:link rel="alternate" hreflang="es-ES" href="https://alekseibalchunas.com/es/work/ai-systems/" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://alekseibalchunas.com/pt-br/work/ai-systems/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://alekseibalchunas.com/de/work/ai-systems/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://alekseibalchunas.com/fr/work/ai-systems/" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://alekseibalchunas.com/it/work/ai-systems/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://alekseibalchunas.com/ja/work/ai-systems/" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://alekseibalchunas.com/ko/work/ai-systems/" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://alekseibalchunas.com/zh-hans/work/ai-systems/" />
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://alekseibalchunas.com/zh-hant/work/ai-systems/" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://alekseibalchunas.com/ar/work/ai-systems/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://alekseibalchunas.com/work/ai-systems/" />
+  </url>
+  <url>
+    <loc>https://alekseibalchunas.com/ru/work/ai-systems/</loc>
+    <lastmod>2026-08-05</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://alekseibalchunas.com/work/ai-systems/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://alekseibalchunas.com/ru/work/ai-systems/" />
+    <xhtml:link rel="alternate" hreflang="es-ES" href="https://alekseibalchunas.com/es/work/ai-systems/" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://alekseibalchunas.com/pt-br/work/ai-systems/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://alekseibalchunas.com/de/work/ai-systems/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://alekseibalchunas.com/fr/work/ai-systems/" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://alekseibalchunas.com/it/work/ai-systems/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://alekseibalchunas.com/ja/work/ai-systems/" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://alekseibalchunas.com/ko/work/ai-systems/" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://alekseibalchunas.com/zh-hans/work/ai-systems/" />
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://alekseibalchunas.com/zh-hant/work/ai-systems/" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://alekseibalchunas.com/ar/work/ai-systems/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://alekseibalchunas.com/work/ai-systems/" />
+  </url>
+  <url>
+    <loc>https://alekseibalchunas.com/es/work/ai-systems/</loc>
+    <lastmod>2026-08-05</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://alekseibalchunas.com/work/ai-systems/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://alekseibalchunas.com/ru/work/ai-systems/" />
+    <xhtml:link rel="alternate" hreflang="es-ES" href="https://alekseibalchunas.com/es/work/ai-systems/" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://alekseibalchunas.com/pt-br/work/ai-systems/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://alekseibalchunas.com/de/work/ai-systems/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://alekseibalchunas.com/fr/work/ai-systems/" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://alekseibalchunas.com/it/work/ai-systems/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://alekseibalchunas.com/ja/work/ai-systems/" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://alekseibalchunas.com/ko/work/ai-systems/" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://alekseibalchunas.com/zh-hans/work/ai-systems/" />
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://alekseibalchunas.com/zh-hant/work/ai-systems/" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://alekseibalchunas.com/ar/work/ai-systems/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://alekseibalchunas.com/work/ai-systems/" />
+  </url>
+  <url>
+    <loc>https://alekseibalchunas.com/pt-br/work/ai-systems/</loc>
+    <lastmod>2026-08-05</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://alekseibalchunas.com/work/ai-systems/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://alekseibalchunas.com/ru/work/ai-systems/" />
+    <xhtml:link rel="alternate" hreflang="es-ES" href="https://alekseibalchunas.com/es/work/ai-systems/" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://alekseibalchunas.com/pt-br/work/ai-systems/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://alekseibalchunas.com/de/work/ai-systems/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://alekseibalchunas.com/fr/work/ai-systems/" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://alekseibalchunas.com/it/work/ai-systems/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://alekseibalchunas.com/ja/work/ai-systems/" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://alekseibalchunas.com/ko/work/ai-systems/" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://alekseibalchunas.com/zh-hans/work/ai-systems/" />
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://alekseibalchunas.com/zh-hant/work/ai-systems/" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://alekseibalchunas.com/ar/work/ai-systems/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://alekseibalchunas.com/work/ai-systems/" />
+  </url>
+  <url>
+    <loc>https://alekseibalchunas.com/de/work/ai-systems/</loc>
+    <lastmod>2026-08-05</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://alekseibalchunas.com/work/ai-systems/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://alekseibalchunas.com/ru/work/ai-systems/" />
+    <xhtml:link rel="alternate" hreflang="es-ES" href="https://alekseibalchunas.com/es/work/ai-systems/" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://alekseibalchunas.com/pt-br/work/ai-systems/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://alekseibalchunas.com/de/work/ai-systems/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://alekseibalchunas.com/fr/work/ai-systems/" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://alekseibalchunas.com/it/work/ai-systems/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://alekseibalchunas.com/ja/work/ai-systems/" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://alekseibalchunas.com/ko/work/ai-systems/" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://alekseibalchunas.com/zh-hans/work/ai-systems/" />
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://alekseibalchunas.com/zh-hant/work/ai-systems/" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://alekseibalchunas.com/ar/work/ai-systems/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://alekseibalchunas.com/work/ai-systems/" />
+  </url>
+  <url>
+    <loc>https://alekseibalchunas.com/fr/work/ai-systems/</loc>
+    <lastmod>2026-08-05</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://alekseibalchunas.com/work/ai-systems/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://alekseibalchunas.com/ru/work/ai-systems/" />
+    <xhtml:link rel="alternate" hreflang="es-ES" href="https://alekseibalchunas.com/es/work/ai-systems/" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://alekseibalchunas.com/pt-br/work/ai-systems/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://alekseibalchunas.com/de/work/ai-systems/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://alekseibalchunas.com/fr/work/ai-systems/" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://alekseibalchunas.com/it/work/ai-systems/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://alekseibalchunas.com/ja/work/ai-systems/" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://alekseibalchunas.com/ko/work/ai-systems/" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://alekseibalchunas.com/zh-hans/work/ai-systems/" />
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://alekseibalchunas.com/zh-hant/work/ai-systems/" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://alekseibalchunas.com/ar/work/ai-systems/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://alekseibalchunas.com/work/ai-systems/" />
+  </url>
+  <url>
+    <loc>https://alekseibalchunas.com/it/work/ai-systems/</loc>
+    <lastmod>2026-08-05</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://alekseibalchunas.com/work/ai-systems/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://alekseibalchunas.com/ru/work/ai-systems/" />
+    <xhtml:link rel="alternate" hreflang="es-ES" href="https://alekseibalchunas.com/es/work/ai-systems/" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://alekseibalchunas.com/pt-br/work/ai-systems/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://alekseibalchunas.com/de/work/ai-systems/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://alekseibalchunas.com/fr/work/ai-systems/" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://alekseibalchunas.com/it/work/ai-systems/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://alekseibalchunas.com/ja/work/ai-systems/" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://alekseibalchunas.com/ko/work/ai-systems/" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://alekseibalchunas.com/zh-hans/work/ai-systems/" />
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://alekseibalchunas.com/zh-hant/work/ai-systems/" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://alekseibalchunas.com/ar/work/ai-systems/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://alekseibalchunas.com/work/ai-systems/" />
+  </url>
+  <url>
+    <loc>https://alekseibalchunas.com/ja/work/ai-systems/</loc>
+    <lastmod>2026-08-05</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://alekseibalchunas.com/work/ai-systems/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://alekseibalchunas.com/ru/work/ai-systems/" />
+    <xhtml:link rel="alternate" hreflang="es-ES" href="https://alekseibalchunas.com/es/work/ai-systems/" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://alekseibalchunas.com/pt-br/work/ai-systems/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://alekseibalchunas.com/de/work/ai-systems/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://alekseibalchunas.com/fr/work/ai-systems/" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://alekseibalchunas.com/it/work/ai-systems/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://alekseibalchunas.com/ja/work/ai-systems/" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://alekseibalchunas.com/ko/work/ai-systems/" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://alekseibalchunas.com/zh-hans/work/ai-systems/" />
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://alekseibalchunas.com/zh-hant/work/ai-systems/" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://alekseibalchunas.com/ar/work/ai-systems/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://alekseibalchunas.com/work/ai-systems/" />
+  </url>
+  <url>
+    <loc>https://alekseibalchunas.com/ko/work/ai-systems/</loc>
+    <lastmod>2026-08-05</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://alekseibalchunas.com/work/ai-systems/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://alekseibalchunas.com/ru/work/ai-systems/" />
+    <xhtml:link rel="alternate" hreflang="es-ES" href="https://alekseibalchunas.com/es/work/ai-systems/" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://alekseibalchunas.com/pt-br/work/ai-systems/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://alekseibalchunas.com/de/work/ai-systems/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://alekseibalchunas.com/fr/work/ai-systems/" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://alekseibalchunas.com/it/work/ai-systems/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://alekseibalchunas.com/ja/work/ai-systems/" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://alekseibalchunas.com/ko/work/ai-systems/" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://alekseibalchunas.com/zh-hans/work/ai-systems/" />
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://alekseibalchunas.com/zh-hant/work/ai-systems/" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://alekseibalchunas.com/ar/work/ai-systems/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://alekseibalchunas.com/work/ai-systems/" />
+  </url>
+  <url>
+    <loc>https://alekseibalchunas.com/zh-hans/work/ai-systems/</loc>
+    <lastmod>2026-08-05</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://alekseibalchunas.com/work/ai-systems/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://alekseibalchunas.com/ru/work/ai-systems/" />
+    <xhtml:link rel="alternate" hreflang="es-ES" href="https://alekseibalchunas.com/es/work/ai-systems/" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://alekseibalchunas.com/pt-br/work/ai-systems/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://alekseibalchunas.com/de/work/ai-systems/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://alekseibalchunas.com/fr/work/ai-systems/" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://alekseibalchunas.com/it/work/ai-systems/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://alekseibalchunas.com/ja/work/ai-systems/" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://alekseibalchunas.com/ko/work/ai-systems/" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://alekseibalchunas.com/zh-hans/work/ai-systems/" />
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://alekseibalchunas.com/zh-hant/work/ai-systems/" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://alekseibalchunas.com/ar/work/ai-systems/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://alekseibalchunas.com/work/ai-systems/" />
+  </url>
+  <url>
+    <loc>https://alekseibalchunas.com/zh-hant/work/ai-systems/</loc>
+    <lastmod>2026-08-05</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://alekseibalchunas.com/work/ai-systems/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://alekseibalchunas.com/ru/work/ai-systems/" />
+    <xhtml:link rel="alternate" hreflang="es-ES" href="https://alekseibalchunas.com/es/work/ai-systems/" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://alekseibalchunas.com/pt-br/work/ai-systems/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://alekseibalchunas.com/de/work/ai-systems/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://alekseibalchunas.com/fr/work/ai-systems/" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://alekseibalchunas.com/it/work/ai-systems/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://alekseibalchunas.com/ja/work/ai-systems/" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://alekseibalchunas.com/ko/work/ai-systems/" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://alekseibalchunas.com/zh-hans/work/ai-systems/" />
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://alekseibalchunas.com/zh-hant/work/ai-systems/" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://alekseibalchunas.com/ar/work/ai-systems/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://alekseibalchunas.com/work/ai-systems/" />
+  </url>
+  <url>
+    <loc>https://alekseibalchunas.com/ar/work/ai-systems/</loc>
+    <lastmod>2026-08-05</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://alekseibalchunas.com/work/ai-systems/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://alekseibalchunas.com/ru/work/ai-systems/" />
+    <xhtml:link rel="alternate" hreflang="es-ES" href="https://alekseibalchunas.com/es/work/ai-systems/" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://alekseibalchunas.com/pt-br/work/ai-systems/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://alekseibalchunas.com/de/work/ai-systems/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://alekseibalchunas.com/fr/work/ai-systems/" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://alekseibalchunas.com/it/work/ai-systems/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://alekseibalchunas.com/ja/work/ai-systems/" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://alekseibalchunas.com/ko/work/ai-systems/" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://alekseibalchunas.com/zh-hans/work/ai-systems/" />
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://alekseibalchunas.com/zh-hant/work/ai-systems/" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://alekseibalchunas.com/ar/work/ai-systems/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://alekseibalchunas.com/work/ai-systems/" />
   </url>
 </urlset>

@@ -1,0 +1,156 @@
+/* Shared multilingual additions. Loaded after /css/style.css. */
+
+html:lang(ja){
+  --display:"Hiragino Sans","Yu Gothic",Meiryo,sans-serif;
+  --body:"Hiragino Sans","Yu Gothic",Meiryo,sans-serif;
+  --mono:"SFMono-Regular",Consolas,monospace;
+}
+html:lang(ko){
+  --display:"Apple SD Gothic Neo","Malgun Gothic",sans-serif;
+  --body:"Apple SD Gothic Neo","Malgun Gothic",sans-serif;
+  --mono:"SFMono-Regular",Consolas,monospace;
+}
+html:lang(zh-Hans){
+  --display:"PingFang SC","Microsoft YaHei",sans-serif;
+  --body:"PingFang SC","Microsoft YaHei",sans-serif;
+  --mono:"SFMono-Regular",Consolas,monospace;
+}
+html:lang(zh-Hant){
+  --display:"PingFang TC","Microsoft JhengHei",sans-serif;
+  --body:"PingFang TC","Microsoft JhengHei",sans-serif;
+  --mono:"SFMono-Regular",Consolas,monospace;
+}
+html:lang(ar){
+  --display:"Geeza Pro","Noto Sans Arabic",Tahoma,Arial,sans-serif;
+  --body:"Geeza Pro","Noto Sans Arabic",Tahoma,Arial,sans-serif;
+  --mono:"SFMono-Regular",Consolas,monospace;
+}
+html:lang(ja) .kicker,
+html:lang(ko) .kicker,
+html:lang(zh-Hans) .kicker,
+html:lang(zh-Hant) .kicker{letter-spacing:.04em}
+html:lang(ar) .kicker{letter-spacing:0}
+html:lang(ja) h1,
+html:lang(ja) h2,
+html:lang(ja) h3,
+html:lang(ja) h4,
+html:lang(zh-Hans) h1,
+html:lang(zh-Hans) h2,
+html:lang(zh-Hans) h3,
+html:lang(zh-Hans) h4,
+html:lang(zh-Hant) h1,
+html:lang(zh-Hant) h2,
+html:lang(zh-Hant) h3,
+html:lang(zh-Hant) h4{
+  line-break:strict;
+  overflow-wrap:anywhere;
+}
+html:lang(ko) h1,
+html:lang(ko) h2,
+html:lang(ko) h3,
+html:lang(ko) h4{
+  word-break:keep-all;
+  overflow-wrap:anywhere;
+}
+
+.language-switcher{
+  max-width:920px;
+  margin:48px auto 0;
+  padding:0 24px;
+  font-family:var(--body,system-ui,sans-serif);
+}
+.language-switcher__inner{
+  display:grid;
+  grid-template-columns:auto minmax(0,1fr);
+  align-items:start;
+  gap:12px 22px;
+  border-top:1px solid var(--line,#D8DAD3);
+  padding:20px 0 4px;
+}
+.language-switcher__label{
+  padding-top:7px;
+  color:var(--ink-soft,#4A4F5A);
+  font-family:var(--mono,ui-monospace,monospace);
+  font-size:11px;
+  font-weight:600;
+  letter-spacing:.1em;
+  line-height:1.4;
+  text-transform:uppercase;
+}
+.language-switcher__list{
+  display:flex;
+  flex-wrap:wrap;
+  gap:7px;
+  margin:0;
+  padding:0;
+  list-style:none;
+}
+.language-switcher__item{margin:0;padding:0}
+.language-switcher__link{
+  display:block;
+  border:1px solid var(--line,#D8DAD3);
+  padding:6px 9px;
+  background:var(--card,#FFFFFF);
+  color:var(--ink-soft,#4A4F5A);
+  font-size:12px;
+  line-height:1.35;
+  text-decoration:none;
+}
+.language-switcher__link:hover,
+.language-switcher__link:focus-visible{
+  border-color:var(--cobalt,#2743F0);
+  color:var(--cobalt,#2743F0);
+}
+.language-switcher__link.is-active,
+.language-switcher__link[aria-current="page"]{
+  border-color:var(--ink,#171A21);
+  background:var(--ink,#171A21);
+  color:#FFFFFF;
+  font-weight:600;
+}
+
+@media(max-width:680px){
+  .language-switcher{margin-top:36px}
+  .language-switcher__inner{grid-template-columns:1fr;gap:10px}
+  .language-switcher__label{padding-top:0}
+}
+
+/* Arabic and any future right-to-left locale. */
+html[dir="rtl"] body{direction:rtl;text-align:right}
+html[dir="rtl"] .skip-link{right:8px;left:auto}
+html[dir="rtl"] .kicker,
+html[dir="rtl"] .hero-cta,
+html[dir="rtl"] .sec-head,
+html[dir="rtl"] nav .row,
+html[dir="rtl"] .language-switcher__inner,
+html[dir="rtl"] .language-switcher__list{direction:rtl}
+html[dir="rtl"] .note,
+html[dir="rtl"] .hunt-panel,
+html[dir="rtl"] .magnet-layout{
+  border-right:4px solid var(--cobalt,#2743F0);
+  border-left:0;
+}
+html[dir="rtl"] .note.warn{border-right-color:var(--amber,#B06B00)}
+html[dir="rtl"] .link-card.featured,
+html[dir="rtl"] .route-card-featured,
+html[dir="rtl"] .cta-panel{
+  border-right:4px solid var(--cobalt,#2743F0);
+  border-left:1px solid var(--line,#D8DAD3);
+}
+html[dir="rtl"] .f-row .f-l,
+html[dir="rtl"] .contact-row .c-l{
+  border-right:0;
+  border-left:1px solid var(--line,#D8DAD3);
+}
+html[dir="rtl"] .offer .price{right:auto;left:24px;text-align:left}
+html[dir="rtl"] .offer h4{padding-right:0;padding-left:90px}
+html[dir="rtl"] .check-list li{padding-right:24px;padding-left:0}
+html[dir="rtl"] .check-list li::before{right:2px;left:auto}
+
+@media(max-width:600px){
+  html[dir="rtl"] .f-row .f-l,
+  html[dir="rtl"] .contact-row .c-l{
+    border-left:0;
+    border-bottom:1px dashed var(--line,#D8DAD3);
+  }
+}

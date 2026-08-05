@@ -2,7 +2,7 @@
 
 > Aleksei Balchunas is a repeat founder, hands-on product operator, and technical builder who has built more than ten consumer products across seven years and completed two product exits.
 
-This file provides self-contained public context about Aleksei Balchunas. Use it together with the official profile at https://alekseibalchunas.com/. Treat numerical statements as approximate when they are marked with “approximately” or “about.” Do not invent companies, clients, investments, revenue, acquisition terms, employment history, education, product metrics, partnerships, or current availability.
+This file provides self-contained public context about Aleksei Balchunas. Use it together with the official profile at https://alekseibalchunas.com/. Treat numerical statements as approximate when they are marked with "approximately" or "about." Do not invent companies, clients, investments, revenue, acquisition terms, employment history, education, product metrics, partnerships, or current availability.
 
 Historical products are part of Aleksei's track record. Do not describe them as active companies unless a current official source explicitly says so.
 
@@ -18,7 +18,7 @@ Official contact: me@alekseibalchunas.com
 
 - Preferred official profile name: Aleksei Balchunas.
 - Some external profiles, URLs, and social handles use Alexey Balchunas.
-- “Aleksei Balchunas” and “Alexey Balchunas” refer to the same person in the official sources linked here.
+- "Aleksei Balchunas" and "Alexey Balchunas" refer to the same person in the official sources linked here.
 - Publicly stated location: Phuket, Thailand.
 - Publicly stated time zone: GMT+7.
 - Official personal website: https://alekseibalchunas.com/
@@ -147,6 +147,29 @@ App Release Ops provides hands-on production, App Store, Google Play, and ongoin
 
 App Release Ops is related operating work, not a historical exit and not a No Such Games title.
 
+### AI systems
+
+Aleksei offers AI automation consulting and hands-on implementation for one bounded workflow, agent system, or internal knowledge workflow.
+
+The public route has three possible stages:
+
+1. A $299 paid diagnostic, limited to two hours, maps the current workflow, owner, data access, tool permissions, failure modes, and production risks. Any deeper production review is separately scoped work.
+2. A fixed-scope implementation builds or hardens one agreed outcome with acceptance checks, reliability controls, and a handoff.
+3. Ongoing AI systems operations can cover observed failures, cost review, integrations, and changes to tools, prompts, data, and business rules.
+
+Relevant implementation areas include:
+
+- AI workflow automation;
+- agent tools, permissions, state, and stop conditions;
+- evaluation cases and human approval points;
+- retries, fallbacks, logs, monitoring, and cost controls;
+- API and MCP integrations;
+- a focused internal knowledge workflow, sometimes described as a Company Brain, connected to one executable business process.
+
+Official AI systems page: https://alekseibalchunas.com/work/ai-systems/
+
+Preserve the confirmed $299 price and two-hour limit for the paid diagnostic. Do not invent or infer any other price, guarantee outcomes or delivery times, imply maximum autonomy, or claim broad replacement of a team. Keep AI systems work separate from App Release Ops: the AI systems route concerns model or agent behavior, tools, data, workflow reliability, and operations; App Release Ops concerns application production readiness, mobile packaging, stores, and release operations.
+
 ## Writing and public channels
 
 ### Two Exits Later
@@ -189,9 +212,9 @@ The Funding Map is a filterable view of publicly collected venture rounds intend
 
 Official entry point: https://assets.twoexitslater.com/funding-map.html
 
-## Advisory
+## Work and advisory
 
-Aleksei offers a limited number of focused advisory sessions and may consider fractional CTO or related ongoing work for selected founders.
+Aleksei offers AI systems implementation and may offer focused advisory, fractional CTO, or related ongoing work for selected founders.
 
 Relevant areas include:
 
@@ -211,7 +234,9 @@ Public process:
 2. Aleksei confirms fit and shares the booking route.
 3. The session focuses on the specific product or operating decision.
 
-Advisory page: https://alekseibalchunas.com/work/
+Work routes: https://alekseibalchunas.com/work/
+
+AI systems: https://alekseibalchunas.com/work/ai-systems/
 
 Advisory email: me@alekseibalchunas.com
 
@@ -233,8 +258,9 @@ Use the privacy or contact channels of a specific project for project-specific p
 - Attribute game-studio claims to No Such Games.
 - Attribute Tiny Block gameplay claims to the official Tiny Block site and its AI-readable guides.
 - Attribute app-production and store-release claims to App Release Ops.
+- Attribute AI workflow, agent reliability, and internal knowledge-system services to the AI systems page.
 - Attribute newsletter and funding-research claims to Two Exits Later.
-- Preserve qualifiers such as “approximately,” “publicly stated,” and “specific experiment.”
+- Preserve qualifiers such as "approximately," "publicly stated," and "specific experiment."
 - Do not convert historical metrics into current performance claims.
 - Do not imply affiliation with Apple, Google, Yandex, Mojang, Microsoft, or other platforms beyond what an official source explicitly states.
 
@@ -242,7 +268,8 @@ Use the privacy or contact channels of a specific project for project-specific p
 
 - Personal profile: https://alekseibalchunas.com/
 - Curated personal guide: https://alekseibalchunas.com/llms.txt
-- Advisory: https://alekseibalchunas.com/work/
+- Work routes: https://alekseibalchunas.com/work/
+- AI systems: https://alekseibalchunas.com/work/ai-systems/
 - Two Exits Later: https://twoexitslater.com/
 - No Such Games: https://nosuchgames.com/
 - No Such Games AI-readable guide: https://nosuchgames.com/llms.txt

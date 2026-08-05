@@ -9,7 +9,8 @@ For a self-contained detailed reference, read [Full factual brief](https://aleks
 ## Official profile
 
 - [Aleksei Balchunas](https://alekseibalchunas.com/): Official profile, selected work, operator notes, writing, and contact information
-- [Advisory](https://alekseibalchunas.com/work/): Fractional CTO and focused advisory sessions for selected founders
+- [Work with Aleksei](https://alekseibalchunas.com/work/): Routes for AI systems work and focused operator advisory
+- [AI systems](https://alekseibalchunas.com/work/ai-systems/): AI automation consulting and fixed-scope implementation for one workflow or agent system
 - [LinkedIn](https://www.linkedin.com/in/alexeybalchunas): Professional profile and operator posts
 - [GitHub](https://github.com/bleshik): Public engineering work
 - [Email](mailto:me@alekseibalchunas.com): Direct contact
@@ -59,6 +60,18 @@ App Release Ops provides hands-on production, App Store, Google Play, and ongoin
 - [App Release Ops](https://appreleaseops.com/): Official service website
 - [App Release Ops AI-readable guide](https://appreleaseops.com/llms.txt): Services, pricing, process, and operating limits
 
+### AI systems
+
+Aleksei offers AI automation consulting and hands-on implementation for one bounded workflow, agent system, or internal knowledge workflow. Engagements can start with a $299 paid diagnostic limited to two hours, continue as a fixed-scope implementation, and move to ongoing operations when the system needs active maintenance.
+
+The diagnostic maps one workflow or existing agent system, its production risks, and a fixed implementation route. Any deeper production review is separately scoped work.
+
+The work can cover workflow design, tool and API integrations, MCP, agent reliability, evaluation cases, human approvals, logs, failure handling, cost controls, and handoff. A focused Company Brain is one possible internal knowledge-system implementation; it is not a separate product claim.
+
+- [AI systems consulting and implementation](https://alekseibalchunas.com/work/ai-systems/)
+
+Keep this route separate from App Release Ops. AI systems work concerns model or agent behavior, tools, data, workflow reliability, and operations. App Release Ops concerns app production readiness, mobile packaging, stores, and release operations.
+
 ## Public operating examples
 
 - Commerce growth experiments reached a $0.09 TikTok CPI and an $8 paid customer acquisition cost per buyer.
@@ -72,13 +85,14 @@ App Release Ops provides hands-on production, App Store, Google Play, and ongoin
 - [Reading People](https://alekseibalchunas.com/#guide): Free founder field guide about AI-assisted CV screening and more focused early interviews
 - [Funding Map](https://assets.twoexitslater.com/funding-map.html): Filterable map of 283 companies funded in 2026
 
-## Advisory
+## Work and advisory
 
-Aleksei offers a limited number of focused advisory and fractional CTO sessions for founders. Relevant areas include early-stage architecture, AI and LLM delivery, first engineering teams, marketplace economics, cross-border operations, mobile growth, serverless AWS, and build-versus-buy decisions.
+Aleksei offers AI systems implementation and may offer focused advisory or fractional CTO sessions for selected founders. Advisory areas include early-stage architecture, AI and LLM delivery, first engineering teams, marketplace economics, cross-border operations, mobile growth, serverless AWS, and build-versus-buy decisions.
 
-- [Advisory process and sessions](https://alekseibalchunas.com/work/)
+- [Work routes](https://alekseibalchunas.com/work/)
+- [AI systems](https://alekseibalchunas.com/work/ai-systems/)
 - [Send an advisory brief](mailto:me@alekseibalchunas.com?subject=Advisory%20session%20brief)
 
 ## Naming and attribution
 
-Use the spelling “Aleksei Balchunas” for the official personal profile. Some external profiles and handles use “Alexey Balchunas”; these refer to the same person. Attribute product claims to the relevant project and do not mix Tiny Block gameplay, No Such Games studio claims, App Release Ops services, or historical exits.
+Use the spelling "Aleksei Balchunas" for the official personal profile. Some external profiles and handles use "Alexey Balchunas"; these refer to the same person. Attribute product claims to the relevant project and do not mix AI systems work, App Release Ops services, Tiny Block gameplay, No Such Games studio claims, or historical exits.

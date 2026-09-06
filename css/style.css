@@ -219,13 +219,4 @@ footer{margin-top:70px;border-top:2px solid var(--ink);padding:28px 0 46px;font-
 .cmp-notes{margin:28px 0 8px;display:grid;gap:12px;max-width:760px}
 .cmp-notes p{margin:0;font-size:14.5px;color:var(--ink-soft);max-width:none}
 .cmp-notes strong{color:var(--ink);font-weight:600}
-.cmp-verdict-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;margin:22px 0}
-.cmp-verdict{background:var(--card);border:1px solid var(--line);border-top:4px solid var(--green);padding:22px 24px}
-.cmp-verdict-featured{background:var(--cobalt-soft);border-top-color:var(--cobalt)}
-.cmp-verdict-tag{font-family:var(--mono);font-size:11px;font-weight:600;letter-spacing:.1em;text-transform:uppercase;color:var(--green)}
-.cmp-verdict-featured .cmp-verdict-tag{color:var(--cobalt)}
-.cmp-verdict h3{font-size:18px;margin:8px 0}.cmp-verdict p{font-size:14.5px;color:var(--ink-soft);margin:0;max-width:none}
-.cmp-copy{font-size:15px;color:var(--ink-soft);margin-bottom:16px}.cmp-table-compact{min-width:760px}.cmp-table-pricing{min-width:900px}
-#benchmark section,#current section,#pricing section{padding-top:64px}
-@media(max-width:900px){.cmp-verdict-grid{grid-template-columns:1fr 1fr}}
-@media(max-width:620px){.cmp-verdict-grid{grid-template-columns:1fr}.cmp-table{font-size:13px}.cmp-table tbody td{padding:11px 12px}}
+@media(max-width:620px){.cmp-table{font-size:13px}.cmp-table tbody td{padding:11px 12px}}

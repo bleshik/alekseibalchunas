@@ -40,58 +40,60 @@
 <main class="wrap wrap-wide" id="comparison">
   <section>
     <div class="sec-head"><span class="sec-num">01</span><h2>Comparison</h2></div>
-    <p class="cmp-hint">Click any column to sort. Default: API / PAYG $/task, lowest first.</p>
+    <p class="cmp-hint">Click any column to sort. Default: effective cost per score point, lowest first.</p>
     <section class="cmp-shell">
       <div class="cmp-scroll">
         <table class="cmp-table" id="comparisonTable">
           <thead><tr>
             <th data-type="text">Model <span class="sort">&#8597;</span></th>
             <th data-type="text">Effort / Harness <span class="sort">&#8597;</span></th>
-            <th data-type="number" class="num">Coding Index <span class="sort">&#8597;</span></th>
+            <th data-type="number" class="num">Overall coding score <span class="sort">&#8597;</span></th>
             <th data-type="number" class="num">DeepSWE <span class="sort">&#8597;</span></th>
             <th data-type="number" class="num">TerminalBench <span class="sort">&#8597;</span></th>
             <th data-type="number" class="num">SWE Atlas <span class="sort">&#8597;</span></th>
-            <th data-type="currency" data-default-sort="asc" class="num">API / PAYG $/task <span class="sort">&#8597;</span></th>
+            <th data-type="currency" class="num">API / PAYG $/task <span class="sort">&#8597;</span></th>
             <th data-type="currency" class="num">Credits at -20% <span class="sort">&#8597;</span></th>
             <th data-type="range" class="num">Codex Pro 20x est. <span class="sort">&#8597;</span></th>
+            <th data-type="number" data-default-sort="asc" class="num">Effective &cent; / score point <span class="sort">&#8597;</span></th>
           </tr></thead>
           <tbody>
-            <tr><td class="model">Astra</td><td>Max / Codex</td><td class="num strong">67</td><td class="num">67%</td><td class="num">83%</td><td class="num strong">51%</td><td class="num">$4.72</td><td class="num">$3.78</td><td class="num good">$2.36-$2.95</td></tr>
-            <tr><td class="model">Sol</td><td>Medium / Codex</td><td class="num">62</td><td class="num">64%</td><td class="num">81%</td><td class="num">40%</td><td class="num">$2.19</td><td class="num">$1.75</td><td class="num good">$1.10-$1.37</td></tr>
-            <tr><td class="model">Sol</td><td>High / Codex</td><td class="num strong">64</td><td class="num">65%</td><td class="num">82%</td><td class="num">45%</td><td class="num">$3.00</td><td class="num">$2.40</td><td class="num good">$1.50-$1.88</td></tr>
-            <tr><td class="model">Sol</td><td>XHigh / Codex</td><td class="num">63</td><td class="num">67%</td><td class="num">80%</td><td class="num">43%</td><td class="num">$3.74</td><td class="num">$2.99</td><td class="num good">$1.87-$2.34</td></tr>
-            <tr><td class="model">Sol</td><td>Max / Codex</td><td class="num strong">65</td><td class="num strong">69%</td><td class="num">83%</td><td class="num">43%</td><td class="num">$5.00</td><td class="num">$4.00</td><td class="num good">$2.50-$3.13</td></tr>
-            <tr><td class="model">Terra</td><td>Medium / Codex</td><td class="num">48</td><td class="num">46%</td><td class="num">70%</td><td class="num">29%</td><td class="num">$0.67</td><td class="num">$0.54</td><td class="num good">$0.34-$0.42</td></tr>
-            <tr><td class="model">Terra</td><td>High / Codex</td><td class="num">55</td><td class="num">60%</td><td class="num">72%</td><td class="num">31%</td><td class="num">$1.14</td><td class="num">$0.91</td><td class="num good">$0.57-$0.71</td></tr>
-            <tr><td class="model">Terra</td><td>XHigh / Codex</td><td class="num">56</td><td class="num">58%</td><td class="num">77%</td><td class="num">33%</td><td class="num">$1.36</td><td class="num">$1.09</td><td class="num good">$0.68-$0.85</td></tr>
-            <tr><td class="model">Terra</td><td>Max / Codex</td><td class="num strong">60</td><td class="num">67%</td><td class="num">78%</td><td class="num">36%</td><td class="num">$1.93</td><td class="num">$1.54</td><td class="num good">$0.97-$1.21</td></tr>
-            <tr><td class="model">Luna</td><td>Medium / Codex</td><td class="num">42</td><td class="num">37%</td><td class="num">62%</td><td class="num">27%</td><td class="num">$0.09</td><td class="num">$0.07</td><td class="num good">$0.05-$0.06</td></tr>
-            <tr><td class="model">Luna</td><td>High / Codex</td><td class="num">52</td><td class="num">53%</td><td class="num">73%</td><td class="num">29%</td><td class="num">$0.18</td><td class="num">$0.14</td><td class="num good">$0.09-$0.11</td></tr>
-            <tr><td class="model">Luna</td><td>XHigh / Codex</td><td class="num">53</td><td class="num">57%</td><td class="num">71%</td><td class="num">31%</td><td class="num">$0.24</td><td class="num">$0.19</td><td class="num good">$0.12-$0.15</td></tr>
-            <tr><td class="model">Luna</td><td>Max / Codex</td><td class="num strong">57</td><td class="num">63%</td><td class="num">75%</td><td class="num">33%</td><td class="num">$0.29</td><td class="num">$0.23</td><td class="num good">$0.15-$0.18</td></tr>
-            <tr><td class="model">Claude Fable 5.1</td><td>Max + fallback / Claude Code</td><td class="num strong">70</td><td class="num">66%</td><td class="num strong">89%</td><td class="num strong">56%</td><td class="num">$9.18</td><td class="num muted">-</td><td class="num muted">-</td></tr>
-            <tr><td class="model">Claude Opus 5</td><td>Low / Claude Code</td><td class="num">59</td><td class="num">57%</td><td class="num">82%</td><td class="num">39%</td><td class="num">$2.30</td><td class="num muted">-</td><td class="num muted">-</td></tr>
-            <tr><td class="model">Claude Opus 5</td><td>Medium / Claude Code</td><td class="num">64</td><td class="num">63%</td><td class="num">85%</td><td class="num">44%</td><td class="num">$3.17</td><td class="num muted">-</td><td class="num muted">-</td></tr>
-            <tr><td class="model">Claude Opus 5</td><td>High / Claude Code</td><td class="num strong">66</td><td class="num">61%</td><td class="num">87%</td><td class="num">49%</td><td class="num">$3.92</td><td class="num muted">-</td><td class="num muted">-</td></tr>
-            <tr><td class="model">Claude Opus 5</td><td>XHigh / Claude Code</td><td class="num strong">68</td><td class="num">60%</td><td class="num strong">89%</td><td class="num">55%</td><td class="num">$8.17</td><td class="num muted">-</td><td class="num muted">-</td></tr>
-            <tr><td class="model">Claude Opus 5</td><td>Max / Claude Code</td><td class="num strong">67</td><td class="num">63%</td><td class="num strong">89%</td><td class="num">49%</td><td class="num">$8.94</td><td class="num muted">-</td><td class="num muted">-</td></tr>
-            <tr><td class="model">Kimi K3</td><td>Kimi Code CLI</td><td class="num">63</td><td class="num">64%</td><td class="num">88%</td><td class="num">37%</td><td class="num">$3.08</td><td class="num muted">-</td><td class="num muted">-</td></tr>
-            <tr><td class="model">Grok 4.5</td><td>High / Grok Build</td><td class="num strong">64</td><td class="num">60%</td><td class="num">84%</td><td class="num">48%</td><td class="num good">$2.44</td><td class="num muted">-</td><td class="num muted">-</td></tr>
-            <tr><td class="model">Composer 2.5</td><td>Standard / Cursor CLI</td><td class="num">38</td><td class="num">16%</td><td class="num">68%</td><td class="num">31%</td><td class="num">$0.09</td><td class="num muted">-</td><td class="num muted">-</td></tr>
-            <tr><td class="model">Composer 2.5</td><td>Fast / Cursor CLI</td><td class="num">38</td><td class="num">16%</td><td class="num">68%</td><td class="num">31%</td><td class="num">$0.56</td><td class="num muted">-</td><td class="num muted">-</td></tr>
-            <tr><td class="model">DeepSeek V4 Flash 0731</td><td>Max / Codex</td><td class="num">50</td><td class="num">43%</td><td class="num">68%</td><td class="num">39%</td><td class="num">$0.06</td><td class="num muted">-</td><td class="num muted">-</td></tr>
-            <tr><td class="model">DeepSeek V4 Pro 0813</td><td>Max / Codex</td><td class="num">43</td><td class="num">16%</td><td class="num">63%</td><td class="num">49%</td><td class="num">$0.09</td><td class="num muted">-</td><td class="num muted">-</td></tr>
+            <tr><td class="model">DeepSeek V4 Flash 0731</td><td>Max / Codex</td><td class="num">50</td><td class="num">43%</td><td class="num">68%</td><td class="num">39%</td><td class="num">$0.06</td><td class="num muted">-</td><td class="num muted">-</td><td class="num good">0.12&cent;</td></tr>
+            <tr><td class="model">Luna</td><td>Medium / Codex</td><td class="num">42</td><td class="num">37%</td><td class="num">62%</td><td class="num">27%</td><td class="num">$0.09</td><td class="num">$0.07</td><td class="num good">$0.05-$0.06</td><td class="num good">0.13&cent;</td></tr>
+            <tr><td class="model">Luna</td><td>High / Codex</td><td class="num">52</td><td class="num">53%</td><td class="num">73%</td><td class="num">29%</td><td class="num">$0.18</td><td class="num">$0.14</td><td class="num good">$0.09-$0.11</td><td class="num good">0.19&cent;</td></tr>
+            <tr><td class="model">DeepSeek V4 Pro 0813</td><td>Max / Codex</td><td class="num">43</td><td class="num">16%</td><td class="num">63%</td><td class="num">49%</td><td class="num">$0.09</td><td class="num muted">-</td><td class="num muted">-</td><td class="num good">0.21&cent;</td></tr>
+            <tr><td class="model">Composer 2.5</td><td>Standard / Cursor CLI</td><td class="num">38</td><td class="num">16%</td><td class="num">68%</td><td class="num">31%</td><td class="num">$0.09</td><td class="num muted">-</td><td class="num muted">-</td><td class="num good">0.24&cent;</td></tr>
+            <tr><td class="model">Luna</td><td>XHigh / Codex</td><td class="num">53</td><td class="num">57%</td><td class="num">71%</td><td class="num">31%</td><td class="num">$0.24</td><td class="num">$0.19</td><td class="num good">$0.12-$0.15</td><td class="num good">0.25&cent;</td></tr>
+            <tr><td class="model">Luna</td><td>Max / Codex</td><td class="num strong">57</td><td class="num">63%</td><td class="num">75%</td><td class="num">33%</td><td class="num">$0.29</td><td class="num">$0.23</td><td class="num good">$0.15-$0.18</td><td class="num good">0.29&cent;</td></tr>
+            <tr><td class="model">Terra</td><td>Medium / Codex</td><td class="num">48</td><td class="num">46%</td><td class="num">70%</td><td class="num">29%</td><td class="num">$0.67</td><td class="num">$0.54</td><td class="num good">$0.34-$0.42</td><td class="num">0.79&cent;</td></tr>
+            <tr><td class="model">Terra</td><td>High / Codex</td><td class="num">55</td><td class="num">60%</td><td class="num">72%</td><td class="num">31%</td><td class="num">$1.14</td><td class="num">$0.91</td><td class="num good">$0.57-$0.71</td><td class="num">1.16&cent;</td></tr>
+            <tr><td class="model">Terra</td><td>XHigh / Codex</td><td class="num">56</td><td class="num">58%</td><td class="num">77%</td><td class="num">33%</td><td class="num">$1.36</td><td class="num">$1.09</td><td class="num good">$0.68-$0.85</td><td class="num">1.37&cent;</td></tr>
+            <tr><td class="model">Composer 2.5</td><td>Fast / Cursor CLI</td><td class="num">38</td><td class="num">16%</td><td class="num">68%</td><td class="num">31%</td><td class="num">$0.56</td><td class="num muted">-</td><td class="num muted">-</td><td class="num">1.47&cent;</td></tr>
+            <tr><td class="model">Terra</td><td>Max / Codex</td><td class="num strong">60</td><td class="num">67%</td><td class="num">78%</td><td class="num">36%</td><td class="num">$1.93</td><td class="num">$1.54</td><td class="num good">$0.97-$1.21</td><td class="num">1.82&cent;</td></tr>
+            <tr><td class="model">Sol</td><td>Medium / Codex</td><td class="num">62</td><td class="num">64%</td><td class="num">81%</td><td class="num">40%</td><td class="num">$2.19</td><td class="num">$1.75</td><td class="num good">$1.10-$1.37</td><td class="num">1.99&cent;</td></tr>
+            <tr><td class="model">Sol</td><td>High / Codex</td><td class="num strong">64</td><td class="num">65%</td><td class="num">82%</td><td class="num">45%</td><td class="num">$3.00</td><td class="num">$2.40</td><td class="num good">$1.50-$1.88</td><td class="num">2.64&cent;</td></tr>
+            <tr><td class="model">Sol</td><td>XHigh / Codex</td><td class="num">63</td><td class="num">67%</td><td class="num">80%</td><td class="num">43%</td><td class="num">$3.74</td><td class="num">$2.99</td><td class="num good">$1.87-$2.34</td><td class="num">3.34&cent;</td></tr>
+            <tr><td class="model">Grok 4.5</td><td>High / Grok Build</td><td class="num strong">64</td><td class="num">60%</td><td class="num">84%</td><td class="num">48%</td><td class="num good">$2.44</td><td class="num muted">-</td><td class="num muted">-</td><td class="num">3.81&cent;</td></tr>
+            <tr><td class="model">Claude Opus 5</td><td>Low / Claude Code</td><td class="num">59</td><td class="num">57%</td><td class="num">82%</td><td class="num">39%</td><td class="num">$2.30</td><td class="num muted">-</td><td class="num muted">-</td><td class="num">3.90&cent;</td></tr>
+            <tr><td class="model">Astra</td><td>Max / Codex</td><td class="num strong">67</td><td class="num">67%</td><td class="num">83%</td><td class="num strong">51%</td><td class="num">$4.72</td><td class="num">$3.78</td><td class="num good">$2.36-$2.95</td><td class="num">3.96&cent;</td></tr>
+            <tr><td class="model">Sol</td><td>Max / Codex</td><td class="num strong">65</td><td class="num strong">69%</td><td class="num">83%</td><td class="num">43%</td><td class="num">$5.00</td><td class="num">$4.00</td><td class="num good">$2.50-$3.13</td><td class="num">4.33&cent;</td></tr>
+            <tr><td class="model">Kimi K3</td><td>Kimi Code CLI</td><td class="num">63</td><td class="num">64%</td><td class="num">88%</td><td class="num">37%</td><td class="num">$3.08</td><td class="num muted">-</td><td class="num muted">-</td><td class="num">4.89&cent;</td></tr>
+            <tr><td class="model">Claude Opus 5</td><td>Medium / Claude Code</td><td class="num">64</td><td class="num">63%</td><td class="num">85%</td><td class="num">44%</td><td class="num">$3.17</td><td class="num muted">-</td><td class="num muted">-</td><td class="num">4.95&cent;</td></tr>
+            <tr><td class="model">Claude Opus 5</td><td>High / Claude Code</td><td class="num strong">66</td><td class="num">61%</td><td class="num">87%</td><td class="num">49%</td><td class="num">$3.92</td><td class="num muted">-</td><td class="num muted">-</td><td class="num">5.94&cent;</td></tr>
+            <tr><td class="model">Claude Opus 5</td><td>XHigh / Claude Code</td><td class="num strong">68</td><td class="num">60%</td><td class="num strong">89%</td><td class="num">55%</td><td class="num">$8.17</td><td class="num muted">-</td><td class="num muted">-</td><td class="num">12.01&cent;</td></tr>
+            <tr><td class="model">Claude Fable 5.1</td><td>Max + fallback / Claude Code</td><td class="num strong">70</td><td class="num">66%</td><td class="num strong">89%</td><td class="num strong">56%</td><td class="num">$9.18</td><td class="num muted">-</td><td class="num muted">-</td><td class="num">13.11&cent;</td></tr>
+            <tr><td class="model">Claude Opus 5</td><td>Max / Claude Code</td><td class="num strong">67</td><td class="num">63%</td><td class="num strong">89%</td><td class="num">49%</td><td class="num">$8.94</td><td class="num muted">-</td><td class="num muted">-</td><td class="num">13.34&cent;</td></tr>
           </tbody>
         </table>
       </div>
     </section>
-    <div class="cmp-legend"><span>Higher benchmark scores are better.</span><span>Lower cost per task is better.</span></div>
+    <div class="cmp-legend"><span>Higher benchmark scores are better.</span><span>Lower cost per task and per score point is better.</span></div>
   </section>
 
   <section class="cmp-notes" id="notes">
     <div class="sec-head"><span class="sec-num">02</span><h2>Notes</h2></div>
     <p><strong>Snapshot:</strong> <time datetime="2026-09-06">6 September 2026</time>. Scores and measured API cost come from <a href="https://artificialanalysis.ai/agents/coding-agents/comparisons/claude-code-vs-codex" rel="noopener">Artificial Analysis Coding Agent Index v1.4</a>.</p>
     <p><strong>Codex estimates:</strong> Credits applies the working 20% discount. Pro 20x assumes included compute delivers about 1.6x to 2.0x the value of base pay-as-you-go credits. Neither is an official per-task quote.</p>
+    <p><strong>Effective cost per score point:</strong> effective task cost divided by Overall coding score, shown in cents. Codex models use the midpoint of the Pro 20x estimate; other models use API / PAYG cost. It is a cost-efficiency indicator, not a linear measure of intelligence.</p>
     <p><strong>DeepSeek on OpenRouter:</strong> Flash 0731 currently starts near $0.05/M input and $0.10/M output, versus DeepSeek Direct at $0.22-$0.44/M fresh input and $0.66-$1.32/M output. The table keeps the measured $0.06 benchmark task cost because no identical token trace has been rerun through OpenRouter. See <a href="https://openrouter.ai/deepseek/deepseek-v4-flash-0731" rel="noopener">current OpenRouter endpoints</a>.</p>
     <p><strong>Missing current models:</strong> Grok 4.6 and Claude Sonnet 5 have CursorBench results, but no comparable Coding Agent Index v1.4 run yet. Mixing those scores into this ranking would make the decision less reliable.</p>
     <p><strong>Related guide:</strong> <a href="https://twoexitslater.com/p/codex-deepseek-subagents" rel="noopener">How to Have an Endless Supply of Tokens in Codex</a>.</p>

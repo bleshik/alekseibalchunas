@@ -1,195 +1,58 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>AI coding models — cost per task · Aleksei Balchunas</title>
-<meta name="description" content="Sortable comparison of coding benchmark scores and approximate $/task across OpenAI Codex, Kimi K3, Grok, Cursor Composer, and DeepSeek. Sorted by API cost, lowest first.">
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>AI coding models: quality, speed, and cost per task | Aleksei Balchunas</title>
+<meta name="description" content="A current comparison of Astra, Claude, Codex, Kimi, Grok, Composer, and DeepSeek using fresh agentic coding benchmarks and API prices.">
 <link rel="canonical" href="https://alekseibalchunas.com/ai-coding-models/">
-<meta property="og:title" content="AI coding models — cost per task">
-<meta property="og:description" content="Comparable coding scores and approximate $/task across Codex, Kimi K3, Grok, Cursor Composer, and DeepSeek. Sorted by API cost, lowest first.">
-<meta property="og:url" content="https://alekseibalchunas.com/ai-coding-models/">
-<meta property="og:type" content="website">
-<meta property="og:site_name" content="Aleksei Balchunas">
-<meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="AI coding models — cost per task">
-<meta name="twitter:description" content="Comparable coding scores and approximate $/task across Codex, Kimi K3, Grok, Cursor Composer, and DeepSeek. Sorted by API cost, lowest first.">
-<link rel="icon" href="/favicon.ico" sizes="32x32">
-<link rel="icon" href="/favicon-32x32.png" type="image/png" sizes="32x32">
-<link rel="apple-touch-icon" href="/apple-touch-icon.png">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Unbounded:wght@500;700;900&family=Golos+Text:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="/css/style.css">
+<meta property="og:title" content="AI coding models: quality, speed, and cost per task"><meta property="og:description" content="Fresh agentic coding benchmarks, API prices, and practical model choices."><meta property="og:url" content="https://alekseibalchunas.com/ai-coding-models/"><meta property="og:type" content="website"><meta property="og:site_name" content="Aleksei Balchunas">
+<meta name="twitter:card" content="summary"><meta name="twitter:title" content="AI coding models: quality, speed, and cost per task"><meta name="twitter:description" content="Fresh agentic coding benchmarks, API prices, and practical model choices. Updated 6 September 2026.">
+<link rel="icon" href="/favicon.ico" sizes="32x32"><link rel="icon" href="/favicon-32x32.png" type="image/png" sizes="32x32"><link rel="apple-touch-icon" href="/apple-touch-icon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Unbounded:wght@500;700;900&family=Golos+Text:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet"><link rel="stylesheet" href="/css/style.css">
 </head>
 <body>
+<header><div class="wrap"><div class="kicker"><span>Living benchmark</span><span><b><time datetime="2026-09-06">6 Sep 2026</time></b></span><span>Aleksei Balchunas</span></div><h1>Which coding model should I use <span class="hl">for what</span>?</h1><p class="lede">Fresh agentic coding scores, measured cost per task, and current token prices. Luna is the cheap verified worker, Terra is the value step-up, Sol is the dependable default, Astra is for genuinely hard work, and Claude owns the top quality tier.</p></div></header>
+<nav><div class="row"><a href="/"><b>&larr;</b> Home</a><a href="#verdict" class="active"><b>01</b> Verdict</a><a href="#benchmark"><b>02</b> Benchmark</a><a href="#current"><b>03</b> New models</a><a href="#pricing"><b>04</b> Pricing</a><a href="#method"><b>05</b> Method</a></div></nav>
+<main>
+<div class="wrap" id="verdict"><section><div class="sec-head"><span class="sec-num">01</span><h2>My routing guide</h2></div><p class="sec-sub">Benchmarks are useful only when they change a decision. This is the model ladder I would use today.</p><div class="cmp-verdict-grid">
+<article class="cmp-verdict"><span class="cmp-verdict-tag">Cheap, testable work</span><h3>Luna Max</h3><p>Bounded implementation, repository checks, and diagnostics with cheap verification. It reaches 57 for $0.29 per task.</p></article>
+<article class="cmp-verdict"><span class="cmp-verdict-tag">Best value step-up</span><h3>Terra Max</h3><p>Use when Luna misses or the change spans several moving parts. Score 60 at $1.93 per task.</p></article>
+<article class="cmp-verdict"><span class="cmp-verdict-tag">Reliable default</span><h3>Sol High</h3><p>Important multi-file implementation and debugging. High scores 64 at $3.00; Max adds one point for another $2.00.</p></article>
+<article class="cmp-verdict cmp-verdict-featured"><span class="cmp-verdict-tag">Hardest work</span><h3>Astra Max</h3><p>Use when failure is expensive or the task needs long-horizon judgment. It scores 67 at $4.72 and uses far fewer tokens than Sol Max.</p></article>
+<article class="cmp-verdict"><span class="cmp-verdict-tag">Claude default</span><h3>Opus 5 High</h3><p>Use when Claude Code is the better harness or you want Claude's coding style. Score 66 at $3.92.</p></article>
+<article class="cmp-verdict"><span class="cmp-verdict-tag">Maximum quality</span><h3>Fable 5.1 Max</h3><p>The current leader at 70. It costs $9.18 per task, so reserve it for work where the premium matters.</p></article></div>
+<div class="note warn"><p><strong>Caveat:</strong> Grok 4.6 looks unusually strong for its price in CursorBench 3.2, but it has no result yet in the comparable Coding Agent Index v1.4 table. I would test it, not crown it.</p></div></section></div>
 
-<header>
-  <div class="wrap">
-    <div class="kicker"><span>Operator note</span><span><b><time datetime="2026-08-18">18 Aug 2026</time></b></span><span>Aleksei Balchunas</span></div>
-    <h1>Which coding model is cheapest <span class="hl">per task</span>?</h1>
-    <p class="lede">Same coding benchmarks, different price tags. Approximate $/task across OpenAI Codex (Sol, Terra, Luna), Kimi K3, Grok 4.5, Cursor Composer 2.5, and DeepSeek V4 Flash. Sorted by API cost, lowest first.</p>
-  </div>
-</header>
+<div class="wrap wrap-wide" id="benchmark"><section><div class="sec-head"><span class="sec-num">02</span><h2>Comparable agentic coding results</h2></div><p class="sec-sub">Every row comes from Artificial Analysis Coding Agent Index v1.4: the equal-weight average of DeepSWE, Terminal-Bench 2.1, and SWE-Atlas-QnA. Cost is measured pay-as-you-go model cost for the benchmark task.</p><p class="cmp-hint">Click any column to sort. Default: cost per task, lowest first.</p>
+<section class="cmp-shell"><div class="cmp-scroll"><table class="cmp-table sortable-table" id="aa"><thead><tr><th data-type="text">Model <span class="sort">&#8597;</span></th><th data-type="text">Effort / Harness <span class="sort">&#8597;</span></th><th data-type="number" class="num">Coding Index <span class="sort">&#8597;</span></th><th data-type="number" class="num">DeepSWE <span class="sort">&#8597;</span></th><th data-type="number" class="num">TerminalBench <span class="sort">&#8597;</span></th><th data-type="number" class="num">SWE Atlas <span class="sort">&#8597;</span></th><th data-type="currency" data-default-sort="asc" class="num">API cost / task <span class="sort">&#8597;</span></th></tr></thead><tbody></tbody></table></div></section>
+<div class="cmp-legend"><span>Higher scores are better.</span><span>Lower cost is better.</span><span>Model plus harness is the tested unit.</span></div></section></div>
 
-<nav><div class="row">
-  <a href="/"><b>←</b> Home</a>
-  <a href="#table" class="active"><b>01</b> Comparison</a>
-  <a href="#notes"><b>02</b> Notes</a>
-</div></nav>
+<div class="wrap wrap-wide" id="current"><section><div class="sec-head"><span class="sec-num">03</span><h2>Newest models: CursorBench 3.2</h2></div><p class="sec-sub">Coding Agent Index does not yet cover every current model. CursorBench tests ambiguous, multi-file Cursor sessions, filling the gaps for Sonnet 5 and Grok 4.6. Do not compare its score directly with the table above.</p><p class="cmp-hint">Selected current configurations. Default: score, highest first.</p>
+<section class="cmp-shell"><div class="cmp-scroll"><table class="cmp-table cmp-table-compact sortable-table" id="cb"><thead><tr><th data-type="text">Model <span class="sort">&#8597;</span></th><th data-type="text">Effort <span class="sort">&#8597;</span></th><th data-type="number" data-default-sort="desc" class="num">CursorBench 3.2 <span class="sort">&#8597;</span></th><th data-type="currency" class="num">API cost / task <span class="sort">&#8597;</span></th></tr></thead><tbody></tbody></table></div></section></section></div>
 
-<div class="wrap wrap-wide" id="table">
-  <p class="cmp-hint">Click any column to sort. Default: API $/task, lowest first.</p>
+<div class="wrap wrap-wide" id="pricing"><section><div class="sec-head"><span class="sec-num">04</span><h2>Current public API rates</h2></div><p class="sec-sub">Per one million tokens. Cache write is separate because agent loops repeatedly rewrite and reread large contexts. Benchmark cost already reflects the tested token mix.</p>
+<section class="cmp-shell"><div class="cmp-scroll"><table class="cmp-table cmp-table-pricing sortable-table" id="rates"><thead><tr><th data-type="text">Model <span class="sort">&#8597;</span></th><th data-type="currency" class="num">Input <span class="sort">&#8597;</span></th><th data-type="currency" class="num">Cache write <span class="sort">&#8597;</span></th><th data-type="currency" class="num">Cache read <span class="sort">&#8597;</span></th><th data-type="currency" class="num">Output <span class="sort">&#8597;</span></th></tr></thead><tbody></tbody></table></div></section>
+<div class="cmp-legend"><span>USD unless marked CNY.</span><span>DeepSeek ranges are off-peak to peak.</span><span>Astra requests above 272K input tokens use higher rates.</span></div>
+<h3>Your OpenAI cost scenarios</h3><p class="cmp-copy">Planning estimates, not provider quotes. Credits applies your working 20% discount to measured benchmark cost. Pro assumes included Pro 20x compute delivers about 1.6x to 2.0x the value of base pay-as-you-go credits.</p>
+<section class="cmp-shell"><div class="cmp-scroll"><table class="cmp-table cmp-table-compact sortable-table" id="personal"><thead><tr><th data-type="text">Model <span class="sort">&#8597;</span></th><th data-type="text">Effort <span class="sort">&#8597;</span></th><th data-type="currency" data-default-sort="asc" class="num">API / task <span class="sort">&#8597;</span></th><th data-type="currency" class="num">Credits at -20% <span class="sort">&#8597;</span></th><th data-type="range" class="num">Pro 20x estimate <span class="sort">&#8597;</span></th></tr></thead><tbody></tbody></table></div></section></section></div>
 
-  <section class="cmp-shell">
-    <div class="cmp-scroll">
-      <table class="cmp-table" id="comparisonTable">
-        <thead>
-          <tr>
-            <th data-type="text">Model <span class="sort">↕</span></th>
-            <th data-type="text">Effort / Harness <span class="sort">↕</span></th>
-            <th data-type="number" class="num">Coding Index <span class="sort">↕</span></th>
-            <th data-type="number" class="num">DeepSWE <span class="sort">↕</span></th>
-            <th data-type="number" class="num">TerminalBench <span class="sort">↕</span></th>
-            <th data-type="number" class="num">SWE Atlas <span class="sort">↕</span></th>
-            <th data-type="currency" data-default-sort="asc" class="num">API / PAYG $/task <span class="sort">↕</span></th>
-            <th data-type="currency" class="num">GPT Credits −20% <span class="sort">↕</span></th>
-            <th data-type="range" class="num">Pro 20x rough est. <span class="sort">↕</span></th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr><td class="model">Sol</td><td>Medium / Codex</td><td class="num strong">61</td><td class="num">64%</td><td class="num">78%</td><td class="num">40%</td><td class="num">$2.99</td><td class="num">$2.39</td><td class="num good">$1.50–$1.87</td></tr>
-          <tr><td class="model">Sol</td><td>High / Codex</td><td class="num strong">64</td><td class="num">65%</td><td class="num">83%</td><td class="num strong">45%</td><td class="num">$4.14</td><td class="num">$3.31</td><td class="num good">$2.07–$2.59</td></tr>
-          <tr><td class="model">Sol</td><td>XHigh / Codex</td><td class="num strong">65</td><td class="num">67%</td><td class="num">86%</td><td class="num">42%</td><td class="num">$5.24</td><td class="num">$4.19</td><td class="num good">$2.62–$3.28</td></tr>
-          <tr><td class="model">Sol</td><td>Max / Codex</td><td class="num strong">67</td><td class="num strong">69%</td><td class="num strong">88%</td><td class="num">43%</td><td class="num">$7.08</td><td class="num">$5.66</td><td class="num good">$3.54–$4.43</td></tr>
-
-          <tr><td class="model">Terra</td><td>Medium / Codex</td><td class="num">48</td><td class="num">46%</td><td class="num">69%</td><td class="num">28%</td><td class="num">$0.72</td><td class="num">$0.58</td><td class="num good">$0.36–$0.45</td></tr>
-          <tr><td class="model">Terra</td><td>High / Codex</td><td class="num">56</td><td class="num">60%</td><td class="num">76%</td><td class="num">31%</td><td class="num">$1.27</td><td class="num">$1.02</td><td class="num good">$0.64–$0.79</td></tr>
-          <tr><td class="model">Terra</td><td>XHigh / Codex</td><td class="num">57</td><td class="num">58%</td><td class="num">81%</td><td class="num">32%</td><td class="num">$1.52</td><td class="num">$1.22</td><td class="num good">$0.76–$0.95</td></tr>
-          <tr><td class="model">Terra</td><td>Max / Codex</td><td class="num strong">62</td><td class="num strong">67%</td><td class="num strong">84%</td><td class="num">36%</td><td class="num">$2.21</td><td class="num">$1.77</td><td class="num good">$1.10–$1.38</td></tr>
-
-          <tr><td class="model">Luna</td><td>Medium / Codex</td><td class="num">42</td><td class="num">37%</td><td class="num">63%</td><td class="num">27%</td><td class="num">$0.09</td><td class="num">$0.07</td><td class="num good">$0.04–$0.06</td></tr>
-          <tr><td class="model">Luna</td><td>High / Codex</td><td class="num">51</td><td class="num">53%</td><td class="num">72%</td><td class="num">29%</td><td class="num">$0.19</td><td class="num">$0.15</td><td class="num good">$0.10–$0.12</td></tr>
-          <tr><td class="model">Luna</td><td>XHigh / Codex</td><td class="num">55</td><td class="num">57%</td><td class="num">76%</td><td class="num">31%</td><td class="num">$0.25</td><td class="num">$0.20</td><td class="num good">$0.12–$0.16</td></tr>
-          <tr><td class="model">Luna</td><td>Max / Codex</td><td class="num strong">59</td><td class="num strong">63%</td><td class="num">80%</td><td class="num">33%</td><td class="num">$0.31</td><td class="num">$0.25</td><td class="num good">$0.15–$0.19</td></tr>
-
-          <tr><td class="model">Kimi K3</td><td>Kimi Code</td><td class="num strong">61</td><td class="num strong">64%</td><td class="num strong">84%</td><td class="num">37%</td><td class="num">$3.18</td><td class="num muted">—</td><td class="num muted">—</td></tr>
-          <tr><td class="model">Grok 4.5</td><td>High / Grok Build</td><td class="num strong">64</td><td class="num">60%</td><td class="num strong">85%</td><td class="num strong">48%</td><td class="num">$2.59</td><td class="num muted">—</td><td class="num muted">—</td></tr>
-          <tr><td class="model">Composer 2.5</td><td>Standard / Cursor</td><td class="num">38</td><td class="num">16%</td><td class="num">67%</td><td class="num">31%</td><td class="num">$0.08</td><td class="num muted">—</td><td class="num muted">—</td></tr>
-          <tr><td class="model">Composer 2.5</td><td>Fast / Cursor</td><td class="num">38</td><td class="num">16%</td><td class="num">67%</td><td class="num">31%</td><td class="num">$0.55</td><td class="num muted">—</td><td class="num muted">—</td></tr>
-          <tr><td class="model">DeepSeek V4 Flash</td><td>Max / Codex</td><td class="num">55</td><td class="num">43%</td><td class="num strong">85%</td><td class="num">39%</td><td class="num">$0.07 <span class="muted">direct API</span></td><td class="num muted">—</td><td class="num muted">—</td></tr>
-        </tbody>
-      </table>
-    </div>
-  </section>
-
-  <div class="cmp-legend">
-    <span>Higher benchmark scores are better.</span>
-    <span>Lower cost per task is better.</span>
-  </div>
-
-  <section class="cmp-notes" id="notes">
-    <p><strong>As of <time datetime="2026-08-18">18 August 2026</time>.</strong> Prices, discounts, and benchmark scores move; treat this as a snapshot, not a live feed.</p>
-    <p><strong>Pro 20x:</strong> rough estimate only, based on the working assumption that included Pro 20x compute provides about 1.6x to 2.0x the value of base PAYG credits. It is not an official OpenAI per-task price.</p>
-    <p><strong>GPT Credits −20%:</strong> applies the 20% credit discount discussed in the source comparison. Non-OpenAI models are left blank.</p>
-    <p><strong>Benchmark comparability:</strong> these rows combine model and harness configurations. Harness choice can materially affect agentic coding results.</p>
-    <p><strong>Practical guide:</strong> <a href="https://twoexitslater.com/p/codex-deepseek-subagents" rel="noopener">How to Have an Endless Supply of Tokens in Codex</a>.</p>
-  </section>
-</div>
-
-<footer>
-  <div class="wrap">Aleksei Balchunas · <a href="/">Home</a> · <a href="https://twoexitslater.com" rel="noopener">Two Exits Later</a> · <a href="mailto:me@alekseibalchunas.com">me@alekseibalchunas.com</a></div>
-</footer>
-
+<div class="wrap" id="method"><section class="cmp-notes"><div class="sec-head"><span class="sec-num">05</span><h2>Method and sources</h2></div><p><strong>Snapshot:</strong> <time datetime="2026-09-06">6 September 2026</time>. This is maintained periodically, not a live feed.</p><p><strong>Primary benchmark:</strong> <a href="https://artificialanalysis.ai/agents/coding-agents/comparisons/claude-code-vs-codex" rel="noopener">Artificial Analysis Coding Agent Index v1.4</a>. Cost includes token pricing, cache reads, cache writes, and applicable discounts for the observed run.</p><p><strong>Current-model cross-check:</strong> <a href="https://cursor.com/evals" rel="noopener">CursorBench 3.2</a>. Compare only within its own table.</p><p><strong>Official rates:</strong> <a href="https://developers.openai.com/api/docs/models/gpt-6-astra" rel="noopener">OpenAI</a>, <a href="https://platform.claude.com/docs/en/about-claude/pricing" rel="noopener">Anthropic</a>, <a href="https://cursor.com/docs/models-and-pricing" rel="noopener">Cursor</a>, <a href="https://api-docs.deepseek.com/quick_start/pricing/" rel="noopener">DeepSeek</a>, and <a href="https://platform.kimi.com/" rel="noopener">Kimi</a>.</p><p><strong>Interpretation:</strong> model, effort, and harness form one tested unit. A harness change can move the result more than a model revision. Use production acceptance tests for final routing decisions.</p><p><strong>Related guide:</strong> <a href="https://twoexitslater.com/p/codex-deepseek-subagents" rel="noopener">How to Have an Endless Supply of Tokens in Codex</a>.</p></section></div>
+</main>
+<footer><div class="wrap">Aleksei Balchunas | <a href="/">Home</a> | <a href="https://twoexitslater.com" rel="noopener">Two Exits Later</a> | <a href="mailto:me@alekseibalchunas.com">me@alekseibalchunas.com</a></div></footer>
 <script>
-(() => {
-  const table = document.getElementById("comparisonTable");
-  const tbody = table.tBodies[0];
-  const headers = Array.from(table.tHead.rows[0].cells);
-
-  let activeColumn = -1;
-  let ascending = true;
-
-  function numericValue(text) {
-    const cleaned = text
-      .replace(/,/g, "")
-      .replace(/[$%~—–]/g, "")
-      .replace(/direct API/gi, "")
-      .trim();
-
-    if (!cleaned || cleaned === "-") return Number.POSITIVE_INFINITY;
-
-    const match = cleaned.match(/-?\d+(?:\.\d+)?/);
-    return match ? Number(match[0]) : Number.POSITIVE_INFINITY;
-  }
-
-  function rangeValue(text) {
-    const cleaned = text.replace(/,/g, "").replace(/[$%~—–]/g, "").trim();
-    if (!cleaned || cleaned === "-") return Number.POSITIVE_INFINITY;
-
-    const nums = cleaned.match(/\d+(?:\.\d+)?/g);
-    if (!nums || nums.length === 0) return Number.POSITIVE_INFINITY;
-
-    const values = nums.map(Number);
-    return values.reduce((a, b) => a + b, 0) / values.length;
-  }
-
-  function valueFor(cell, type) {
-    const text = cell.textContent.trim();
-    if (type === "number" || type === "currency") return numericValue(text);
-    if (type === "range") return rangeValue(text);
-    return text.toLowerCase();
-  }
-
-  function compare(a, b, type) {
-    const av = valueFor(a, type);
-    const bv = valueFor(b, type);
-
-    if (typeof av === "number" && typeof bv === "number") {
-      if (!Number.isFinite(av) && !Number.isFinite(bv)) return 0;
-      if (!Number.isFinite(av)) return 1;
-      if (!Number.isFinite(bv)) return -1;
-      return av - bv;
-    }
-
-    return String(av).localeCompare(String(bv), undefined, { numeric: true, sensitivity: "base" });
-  }
-
-  function applySort(index, nextAscending) {
-    const type = headers[index].dataset.type || "text";
-    activeColumn = index;
-    ascending = nextAscending;
-
-    const rows = Array.from(tbody.rows);
-    rows.sort((ra, rb) => {
-      const result = compare(ra.cells[index], rb.cells[index], type);
-      return ascending ? result : -result;
-    });
-    rows.forEach(row => tbody.appendChild(row));
-
-    headers.forEach((h, i) => {
-      const marker = h.querySelector(".sort");
-      const isActive = i === activeColumn;
-      marker.textContent = isActive ? (ascending ? "↑" : "↓") : "↕";
-      if (isActive) {
-        h.setAttribute("aria-sort", ascending ? "ascending" : "descending");
-      } else {
-        h.removeAttribute("aria-sort");
-      }
-    });
-  }
-
-  headers.forEach((header, index) => {
-    header.addEventListener("click", () => {
-      applySort(index, activeColumn === index ? !ascending : true);
-    });
-  });
-
-  const defaultHeader = table.querySelector("th[data-default-sort]");
-  if (defaultHeader) {
-    applySort(headers.indexOf(defaultHeader), defaultHeader.dataset.defaultSort !== "desc");
-  }
-})();
-</script>
-</body>
-</html>
+const data={
+aa:[
+["Astra","Max / Codex",67,67,83,51,4.72],["Sol","Medium / Codex",62,64,81,40,2.19],["Sol","High / Codex",64,65,82,45,3],["Sol","XHigh / Codex",63,67,80,43,3.74],["Sol","Max / Codex",65,69,83,43,5],
+["Terra","Medium / Codex",48,46,70,29,.67],["Terra","High / Codex",55,60,72,31,1.14],["Terra","XHigh / Codex",56,58,77,33,1.36],["Terra","Max / Codex",60,67,78,36,1.93],
+["Luna","Medium / Codex",42,37,62,27,.09],["Luna","High / Codex",52,53,73,29,.18],["Luna","XHigh / Codex",53,57,71,31,.24],["Luna","Max / Codex",57,63,75,33,.29],
+["Claude Fable 5.1","Max + fallback / Claude Code",70,66,89,56,9.18],["Claude Opus 5","Low / Claude Code",59,57,82,39,2.3],["Claude Opus 5","Medium / Claude Code",64,63,85,44,3.17],["Claude Opus 5","High / Claude Code",66,61,87,49,3.92],["Claude Opus 5","XHigh / Claude Code",68,60,89,55,8.17],["Claude Opus 5","Max / Claude Code",67,63,89,49,8.94],
+["Kimi K3","Kimi Code CLI",63,64,88,37,3.08],["Grok 4.5","High / Grok Build",64,60,84,48,2.44],["Composer 2.5","Standard / Cursor CLI",38,16,68,31,.09],["Composer 2.5","Fast / Cursor CLI",38,16,68,31,.56],["DeepSeek V4 Flash 0731","Max / Codex",50,43,68,39,.06],["DeepSeek V4 Pro 0813","Max / Codex",43,16,63,49,.09],["DeepSeek V4 Pro 0813","High / Claude Code",33,9,70,20,.25]],
+cb:[["Claude Fable 5.1","Max",73.4,9.64],["Claude Fable 5.1","High",69.4,4.8],["Claude Opus 5","Max",70,8.23],["Claude Opus 5","High",66.7,3.91],["Claude Sonnet 5","Max",61.5,4.3],["Claude Sonnet 5","High",56.9,2.13],["Grok 4.6","XHigh",70.8,2.81],["Grok 4.6","High",69.9,2.34],["Grok 4.6","Medium",67.1,1.28],["Sol","Max",67.2,5.69],["Terra","Max",64.9,2.31],["Luna","Max",61.1,.39],["Kimi K3","Max",60.8,2.7],["Composer 2.5","Standard",56.1,.44]],
+rates:[["Astra","$10.00","$12.50","$1.00","$50.00"],["Sol","$4.00","$5.00","$0.40","$20.00"],["Terra","$2.00","$2.50","$0.20","$12.00"],["Luna","$0.20","$0.25","$0.02","$1.20"],["Claude Fable 5.1","$10.00","$12.50","$0.25","$50.00"],["Claude Opus 5","$5.00","$6.25","$0.50","$25.00"],["Claude Sonnet 5","$2.00","$2.50","$0.20","$10.00"],["Claude Haiku 4.5","$1.00","$1.25","$0.10","$5.00"],["Grok 4.6","$2.00","-","$0.50","$6.00"],["Composer 2.5","$0.50","-","$0.20","$2.50"],["DeepSeek V4 Flash","$0.22-$0.44","-","$0.007-$0.014","$0.66-$1.32"],["DeepSeek V4 Pro","$0.66-$1.32","-","$0.022-$0.044","$1.98-$3.96"],["Kimi K3","CNY 20","-","CNY 2","CNY 100"]],
+personal:[["Astra","Max",4.72,3.78,"$2.36-$2.95"],["Sol","Medium",2.19,1.75,"$1.10-$1.37"],["Sol","High",3,2.4,"$1.50-$1.88"],["Sol","XHigh",3.74,2.99,"$1.87-$2.34"],["Sol","Max",5,4,"$2.50-$3.13"],["Terra","Medium",.67,.54,"$0.34-$0.42"],["Terra","High",1.14,.91,"$0.57-$0.71"],["Terra","XHigh",1.36,1.09,"$0.68-$0.85"],["Terra","Max",1.93,1.54,"$0.97-$1.21"],["Luna","Medium",.09,.07,"$0.05-$0.06"],["Luna","High",.18,.14,"$0.09-$0.11"],["Luna","XHigh",.24,.19,"$0.12-$0.15"],["Luna","Max",.29,.23,"$0.15-$0.18"]]
+};
+const money=n=>`$${Number(n).toFixed(2)}`;
+function fill(id,rows,format){document.querySelector(`#${id} tbody`).innerHTML=rows.map(r=>`<tr>${r.map((v,i)=>`<td class="${i===0?'model':i>1?'num':''}">${format(v,i)}</td>`).join("")}</tr>`).join("")}
+fill("aa",data.aa,(v,i)=>i>=3&&i<=5?`${v}%`:i===6?money(v):v);fill("cb",data.cb,(v,i)=>i===2?`${v}%`:i===3?money(v):v);fill("rates",data.rates,v=>v);fill("personal",data.personal,(v,i)=>i===2||i===3?money(v):v);
+document.querySelectorAll(".sortable-table").forEach(table=>{const body=table.tBodies[0],heads=[...table.tHead.rows[0].cells];let active=-1,asc=true;const val=(cell,type)=>{const t=cell.textContent.trim();if(type==="text")return t.toLowerCase();const ns=t.replace(/,/g,"").match(/\d+(?:\.\d+)?/g);if(!ns)return Infinity;const a=ns.map(Number);return type==="range"?a.reduce((x,y)=>x+y,0)/a.length:a[0]};const sort=(i,next)=>{active=i;asc=next;const type=heads[i].dataset.type||"text";[...body.rows].sort((a,b)=>{const x=val(a.cells[i],type),y=val(b.cells[i],type),d=typeof x==="number"?x-y:String(x).localeCompare(String(y),undefined,{numeric:true});return asc?d:-d}).forEach(r=>body.appendChild(r));heads.forEach((h,j)=>{h.querySelector(".sort").textContent=j===active?(asc?"\u2191":"\u2193"):"\u2195";j===active?h.setAttribute("aria-sort",asc?"ascending":"descending"):h.removeAttribute("aria-sort")})};heads.forEach((h,i)=>h.addEventListener("click",()=>sort(i,active===i?!asc:true)));const d=table.querySelector("th[data-default-sort]");if(d)sort(heads.indexOf(d),d.dataset.defaultSort!=="desc")});
+</script></body></html>
